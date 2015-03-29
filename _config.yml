@@ -9,3 +9,6 @@ github_username:  kdmsnr
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap
