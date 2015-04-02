@@ -3,7 +3,8 @@ layout: default
 ---
 
 * [Amazon's author page](http://www.amazon.co.jp/-/e/B00429JIAI)
-* [slideshare](http://www.slideshare.net/kdmsnr) 
+* [slideshare](http://www.slideshare.net/kdmsnr)
+* [Waicrew Inc.](http://www.waicrew.com)
 
 <ul>
   {% for post in site.posts %}
