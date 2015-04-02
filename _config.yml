@@ -11,7 +11,7 @@ timezone: Asia/Tokyo
 # Build settings
 markdown: redcarpet
 redcarpet:
-  extensions: [autolink]
+  extensions: [autolink,strikethrough]
 
 gems:
   - jekyll-sitemap
