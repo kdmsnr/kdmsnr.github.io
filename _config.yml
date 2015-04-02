@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://kdmsnr.com" # the base hostname & protocol for your site
 twitter_username: kdmsnr
 github_username:  kdmsnr
+timezone: Asia/Tokyo
 
 # Build settings
 markdown: kramdown
