@@ -9,7 +9,9 @@ github_username:  kdmsnr
 timezone: Asia/Tokyo
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  extensions: [autolink]
 
 gems:
   - jekyll-sitemap
