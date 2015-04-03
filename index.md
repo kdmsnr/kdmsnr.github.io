@@ -9,8 +9,8 @@ layout: default
 <ul>
   {% for post in site.posts %}
     <li>
-      {{ post.date | date: "%Y-%m-%d"}}
-      <a href="{{ post.dir }}/">{{ post.title }}</a>
+      <span class="post-meta">{{ post.date | date: "%Y-%m-%d"}}</span>
+      <a href="{{ post.dir | prepend: site.baseurl}}/">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
