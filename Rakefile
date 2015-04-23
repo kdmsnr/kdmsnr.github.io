@@ -52,8 +52,9 @@ task :publish => [:generate] do
     message = "Site updated at #{Time.now.utc}"
     sh "git add ."
     sh "git commit -am #{message.shellescape}"
-    sh "git push origin gh-pages --force"
-    sh "git checkout master"
+    sh "git push origin master"
+    sh "rm -rf #{tmp}"
+    sh "git checkout source"
     sh "echo yolo"
   end
 end
