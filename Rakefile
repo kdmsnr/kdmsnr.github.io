@@ -1,3 +1,11 @@
+require 'rubygems'
+require 'rake'
+require 'rdoc'
+require 'date'
+require 'yaml'
+require 'tmpdir'
+require 'jekyll'
+
 desc "server"
 task :s do
   sh "bundle exec jekyll s -w -V"
@@ -25,3 +33,27 @@ task :post do
   end
 end
 
+
+desc "Generate blog files"
+task :generate do
+  Jekyll::Site.new(Jekyll.configuration({
+        "source"      => ".",
+        "destination" => "_site"
+      })).process
+end
+
+desc "Generate and publish blog to gh-pages"
+task :publish => [:generate] do
+  Dir.mktmpdir do |tmp|
+    sh "mv _site/* #{tmp}"
+    sh "git checkout gh-pages"
+    sh "rm -rf *"
+    sh "mv #{tmp}/* ."
+    message = "Site updated at #{Time.now.utc}"
+    sh "git add ."
+    sh "git commit -am #{message.shellescape}"
+    sh "git push origin gh-pages --force"
+    sh "git checkout master"
+    sh "echo yolo"
+  end
+end
