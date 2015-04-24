@@ -16,3 +16,12 @@ redcarpet:
 gems:
   - jekyll-sitemap
   - jemoji
+
+# Amazon plugin
+amazon_access_key_id: 'your access key id'
+amazon_secret_key:    'your secret key'
+amazon_associate_tag: '99-22'
+amazon_cache:         true
+amazon_cache_dir:     '.amazon-cache'      # default '.amazon-cache'
+amazon_country:       'jp'                 # default 'en'
+amazon_locale:        'ja'                 # default 'en'
