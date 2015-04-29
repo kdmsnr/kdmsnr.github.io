@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "bib/team"
+title: "チームづくりの参考書"
 description: ""
 ---
 
