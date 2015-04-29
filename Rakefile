@@ -73,7 +73,7 @@ task :publish => [:generate] do
     sh "git commit -am #{message.shellescape}"
     sh "git push origin master"
     sh "git checkout source"
-    sh "cp ~/Dropbox/src/amazon_tag.rb _plugins/"
+    sh "ln -s ~/Dropbox/src/amazon_tag.rb _plugins/"
     sh "echo yolo"
   end
 end
