@@ -14,9 +14,10 @@
       </a>
 
       <div class="trigger">
+<a class="page-link" href="/bib/">解説付き参考文献</a>
         {% for page in site.pages %}
           {% if page.title %}
-          <a class="page-link" href="{{ page.dir | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% comment %}<a class="page-link" href="{{ page.dir | prepend: site.baseurl }}">{{ page.title }}</a>{% endcomment %}
           {% endif %}
         {% endfor %}
       </div>
