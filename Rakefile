@@ -64,7 +64,6 @@ end
 desc "Generate and publish blog to gh-pages"
 task :publish => [:generate] do
   Dir.mktmpdir do |tmp|
-    sh "git stash"
     sh "mv _site/* #{tmp}"
     sh "git checkout master"
     sh "rm -rf *"
@@ -74,7 +73,6 @@ task :publish => [:generate] do
     sh "git commit -am #{message.shellescape}"
     sh "git push origin master"
     sh "git checkout source"
-    sh "git stash pop"
     sh "ln -s ~/Dropbox/src/amazon_tag.rb _plugins/"
     sh "echo yolo"
   end
