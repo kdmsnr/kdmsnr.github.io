@@ -58,3 +58,9 @@ description: ""
 {% amazon 4621088181 %}
 
 {% amazon 4861009383 %}
+
+## リンク
+
+* [d.school](http://dschool.stanford.edu/)
+* [一般社団法人デザイン思考研究所](http://designthinking.or.jp/)
+* [デザイン思考ファシリテーションンガイドブック](http://www.itoki.jp/catalog/special/designthinking/)
