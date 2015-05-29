@@ -13,3 +13,4 @@ description: ""
 * 問題解決手法
 * 創造プロセス
 * [子育て](child-raising)
+* [営業](selling)

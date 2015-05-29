@@ -63,3 +63,7 @@ description: ""
 * [d.school](http://dschool.stanford.edu/)
 * [一般社団法人デザイン思考研究所](http://designthinking.or.jp/)
 * [デザイン思考ファシリテーションガイドブック](http://www.itoki.jp/catalog/special/designthinking/)
+
+## スライド
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/KqPfYWwW8eQVob" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kdmsnr/design-thinking-2015" title="Design Thinking 2015" target="_blank">Design Thinking 2015</a> </strong> from <strong><a href="//www.slideshare.net/kdmsnr" target="_blank">Masanori Kado</a></strong> </div>
