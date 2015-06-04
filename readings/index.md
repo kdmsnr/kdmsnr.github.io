@@ -22,7 +22,7 @@ TDB（中身はあとで書く）
 <dd>OCaml。510ページだから無理かなあ。</dd>
 
 <dt>Practical Object-Oriented Design in Ruby: An Agile Primer</dt>
-<dd>Rubyを使ったオブジェクト指向設計。</dd>
+<dd>Rubyを使ったオブジェクト指向設計。→ すでに翻訳決まってる？</dd>
 
 <dt>Ruby Wizardry: An Introduction to Programming for Kids</dt>
 <dd>こども向けのRuby。絵を多用してる。</dd>
