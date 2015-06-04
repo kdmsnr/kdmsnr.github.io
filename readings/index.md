@@ -51,10 +51,13 @@ TDB（中身はあとで書く）
 <dt>The Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback</dt>
 <dd>リンスタ的な</dd>
 
-<dt></dt>
-<dd></dd>
-<dt></dt>
-<dd></dd>
+<dt>CTOs at Work</dt>
+<dd>インタビュー</dd>
+
+<dt>CIOs at Work</dt>
+<dd>インタビュー（ https://www.youtube.com/watch?v=UWbnKPmB-DY ）</dd>
+
+
 <dt></dt>
 <dd></dd>
 
