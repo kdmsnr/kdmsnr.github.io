@@ -57,6 +57,9 @@ TDB（中身はあとで書く）
 <dt>CIOs at Work</dt>
 <dd>インタビュー（ https://www.youtube.com/watch?v=UWbnKPmB-DY ）</dd>
 
+<dt>Coaching Agile Teams: A Companion for ScrumMasters, Agile Coaches, and Project Managers in Transition</dt>
+<dd>アジャイルコーチの本。Pragmaticにも似たようなタイトルの本（『Agile Coaching』）がある。</dd>
+
 
 <dt></dt>
 <dd></dd>
