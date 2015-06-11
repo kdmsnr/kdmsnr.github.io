@@ -60,9 +60,11 @@ TDB（中身はあとで書く）
 <dt>Coaching Agile Teams: A Companion for ScrumMasters, Agile Coaches, and Project Managers in Transition</dt>
 <dd>アジャイルコーチの本。Pragmaticにも似たようなタイトルの本（『Agile Coaching』）がある。</dd>
 
+<dt>Realm of Racket</dt>
+<dd>Scheme</dd>
 
-<dt></dt>
-<dd></dd>
+<dt>Thoughtful Machine Learning</dt>
+<dd>RubyでML</dd>
 
 </dl>
 
