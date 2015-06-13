@@ -4,14 +4,19 @@ title: 解説付き参考文献
 description: ""
 ---
 
-* [チームづくり](team)
-* [質的研究](qualitative)
-* [科学哲学](philosophy-of-science)
-* [デザイン思考](design-thinking)
+<ul>
+{% for page in site.pages %}
+  {% if page.dir contains 'bib' %}
+  {% if page.dir != '/bib' %}
+<li><a href="{{ page.dir }}">{{ page.title }}</a></li>
+  {% endif %}
+  {% endif %}
+{% endfor %}
+</ul>
+
+## あとでまとめる
+
 * ファシリテーション
 * コーチング
 * 問題解決手法
 * 創造プロセス
-* [子育て](child-raising)
-* [営業](selling)
-* [英語学習](english)
