@@ -1,0 +1,138 @@
+5Ss,5S
+ABC production analysis,ABC分析
+accumulation,停滞
+andon,アンドン
+apparent efficiency,見かけの能率
+true efficiency,真の能率
+auto eject,ハネ出し
+auto loom,自動織機
+automatic shuttle changer,自動抒換装置
+automation with a human touch,にんべんのついた自働化
+batch-and-queue,乱流まとめ生産
+batch size,バッチサイズ
+buffer stock,バッファ在庫
+capital linearity,段階的設備投資
+chaku-chaku,チャクチャク
+changeover,切り替え
+changeover time,段取り時間
+continuous flow,流れ化
+continuous improvement,継続的改善
+covering internal setup elements to external,内段取りの外段取り化
+cycle stock,サイクル在庫
+demand variation,変動係数
+downstream process,後工程
+downstream operation,後工程
+dropper,ドロッパー
+eliminating waste thoroughly,徹底したムダ廃除
+error-proofing,ポカヨケ
+external setup work,外段取り
+five Whys,5回のなぜ
+fixed-location,固定ロケーション
+fixed-position stop system,定位置停止
+fixed quality, unfixed time,定量不定時
+fixed time, unfixed quality,定時不定量
+fluctuation,ムラ
+Fordism,フォード式
+genryou management,限量経営
+Good Products, Good Thinking,よい品 よい考
+heijunka,平準化
+heijunka box,差し立て板、（負荷）平準化ボックス
+internal kanban,工程間引き取りかんばん
+interprocess kanban,工程間引き取りかんばん
+internal setup work,内段取りの外段取り化
+isolated island,離れ小島
+isolated process,離れ小島
+jidoka,自働化
+jidoka with human touch,にんべんのついた自働化
+job instruction sheet,標準作業指示書
+just-in-time,ジャストインタイム
+kaizen workshop,実践会
+kanban,かんばん
+labor linearity,少人化
+local efficiency,個々の能率
+total productivity,全体の能率
+mizusumashi,水すまし
+material handler,水すまし
+moving line,強制駆動ライン、コンベアライン
+multi-machine handling,多台持ち
+multi-process handling,多工程持ち
+multi-skilled operator,多能工
+one piece flow,1個流し
+operating rate,稼働率
+operational availability,可動率
+out-of-cycle work,サイクル外の作業
+Overall Equipment Effectiveness (OEE),設備総合効率
+overburden,ムリ
+overproduction,つくり過ぎ
+pace,拍動
+paceaker,ペースメーカー
+pack-out-quantity,入り数、収容数
+parts presentation,部品の置き方
+pitch,ピッチ
+Preventive Maintenance,PM
+point-of-use,使うところ
+poka-yoke,ポカヨケ
+process capacity sheet,工程別能力表
+process study,工程分析
+process village layout,分業型レイアウト、機能別レイアウト
+job shop layout,分業型レイアウト、機能別レイアウト
+production analysis board,生産管理版
+production kanban,seis何指示かんばん
+pull system,後工程引き取り
+push,押し込み
+replenishment,後補充、補充
+replenishment pull system,後補充生産方式
+right-sized equipment,流れの仲で使える設備、設備改善
+right-sized tooling,流れの仲で使える設備、設備改善
+root cause,真因
+safety factor,安全係数
+safety stock,安全在庫
+separating human work and machine work,人の仕事と機械の仕事を分ける
+sequential pull system,順序生産方式
+setup reduction,段取り改善
+seven wastes,7つのムダ
+signal cord,ひもスイッチ
+six major losses in machinary,設備の6大ロス
+six rules for kanban effectively,かんばんのルール
+skills training matrix board,スキル管理板
+Single Minute Exchange of Die (SMED),シングル段取り
+stability,安定化
+stagnation between steps,工程間の停滞
+stagnation between processes,工程間の停滞
+standard in-process stock,標準手持ち
+standard inventory,標準手持ち
+standardized work,標準作業
+standardized work chart,標準作業票
+standardized work combination table,標準作業組み合わせ票
+supermarket,スーパーマーケット、店、ストア
+supplier kanban,納入指示かんばん
+takt time,タクトタイム
+Toyota Production System (TPS),トヨタ生産方式
+Total Productive Maintenance (TPM),TPM
+two pillars of the Toyota Production System,トヨタ生産方式の2本柱
+unevenness,ムラ
+upstream process,前工程
+upstream operation,前工程
+U-shape,U字型
+Value Stream Mapping,バリューストリームマッピング
+value-creating work,付加価値をつける働き
+visual management,目で見る管理
+visualization,見える化
+waste,ムダ
+waste (that cannot be eliminated immediately),ひらがなのむだ
+waste of accumulation,停滞のムダ
+waste of conveyance,運搬のムダ
+waste of correction,不良をつくるムダ
+waste of defects,不良をつくるムダ
+waste of inventory,在庫のムダ
+waste of motion,動作のムダ
+waste of overproduction,つくり過ぎのムダ
+waste of processing,加工そのもののムダ
+waste of overprocessing,加工そのもののムダ
+waste of waiting,手待ちのムダ
+WIP (work in process),仕掛り
+withdrawal kanban,引き取りかんばん
+work in process,仕掛り
+work sequence,作業順序
+zero defects,不良ゼロ
+zone control,自工程品質保証
