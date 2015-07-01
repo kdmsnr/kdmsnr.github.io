@@ -18,7 +18,16 @@ description: ""
 
 {% amazon B00IIY0LQS %}
 
-読みにくいけど……わかりやすい。上の本で概要をつかんでから、IDEOの人たちと一緒にうんぬんという昔話のところは読み流すとよさそう。
+ちょいちょい小ネタを挟んでくるので大変読みにくいけど……それでもわかりやすい。上の本で概要をつかんでから、IDEOの人たちと一緒にうんぬんという昔話のところは読み流すとよさそう。
+
+1. 哲学（望むこと）→ビジョン（やりたいこと）の構築
+2. 技術の棚卸し（実現可能性の拡大）とフィールドワーク（経験の拡大）
+   ※このときに5モデル分析 + ペルソナとシナリオの構築も含めてる……プロセスの区切りが雑だと思う。
+3. コンセプト→モデルの構築（作りながらコンセプトメイキング）
+4. デザイン（コンセプトを実際に使えるようにプロトタイピング）
+5. 実証（実際に制作して、試してもらう）
+6. ビジネスモデル構築
+7. オペレーション（運営方法）
 
 {% amazon 4757122942 %}
 
@@ -62,8 +71,16 @@ description: ""
 
 * [d.school](http://dschool.stanford.edu/)
 * [一般社団法人デザイン思考研究所](http://designthinking.or.jp/)
+* [デザイン思考家になるための90分集中講座 -スタンフォード大学 d.school教室-](http://designthinking.or.jp/index.php?video)
 * [デザイン思考ファシリテーションガイドブック](http://www.itoki.jp/catalog/special/designthinking/)
 
 ## スライド
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/KqPfYWwW8eQVob" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kdmsnr/design-thinking-2015" title="Design Thinking 2015" target="_blank">Design Thinking 2015</a> </strong> from <strong><a href="//www.slideshare.net/kdmsnr" target="_blank">Masanori Kado</a></strong> </div>
+
+## 私的メモ
+
+* デザイン思考の5ステップよりも、ダブルダイヤモンドのほうがよいと思う。
+* 共感から「ニーズ」と「インサイト」を探る。インサイトは相手が気づいていないもの。
+
+
