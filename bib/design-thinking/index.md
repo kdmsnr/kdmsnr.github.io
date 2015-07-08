@@ -75,6 +75,7 @@ description: ""
 * [一般社団法人デザイン思考研究所](http://designthinking.or.jp/)
 * [デザイン思考家になるための90分集中講座 -スタンフォード大学 d.school教室-](http://designthinking.or.jp/index.php?video)
 * [デザイン思考ファシリテーションガイドブック](http://www.itoki.jp/catalog/special/designthinking/)
+* [「イノベーション対話ツールの開発」について：文部科学省](http://www.mext.go.jp/a_menu/shinkou/sangaku/1347910.htm)
 
 ## スライド
 
