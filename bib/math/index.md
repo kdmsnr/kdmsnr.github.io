@@ -23,4 +23,6 @@ description: ""
 
 ## 線形代数
 
+* [線形代数I (2013) / Linear Algebra I (2013)](https://www.youtube.com/playlist?list=PLmf8las6ISTJP1V20XLrWCIXnMgyJn5ab)
+
 ## 微分積分
