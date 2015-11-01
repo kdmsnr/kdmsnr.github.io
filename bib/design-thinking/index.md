@@ -4,6 +4,8 @@ title: "デザイン思考の参考書"
 description: ""
 ---
 
+← [デザイン思考のメモ](/notes/design-thinking/)
+
 {% amazon B00R0O6DOQ %}
 
 概略の把握の最適。
