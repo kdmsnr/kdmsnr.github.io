@@ -68,6 +68,21 @@ TDB（中身はあとで書く）
 
 </dl>
 
+
+## あとでやる
+
+* Coding Dojo
+* Living Clojure
+* Agile Coaching
+* Thoughtful Machine Learning
+* Realm of Racket
+* Lego
+* Designing for Growth
+* The Achievement Habit
+* Agile Metrics in Action
+* Happy Melly Express
+* Fifty Quick Ideas To Improve Your Tests
+
 ## 基本方針
 
 * もうアジャイル関係の書籍は手を出さなくてもいいかなあ
