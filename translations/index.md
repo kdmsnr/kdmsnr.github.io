@@ -22,3 +22,7 @@ description: ""
 ## 書籍
 
 書籍の翻訳については、[Amazonの著者ページ](http://www.amazon.co.jp/-/e/B00429JIAI)を参照。
+
+## 翻訳査読
+
+* [翻訳査読](readings)
