@@ -62,6 +62,10 @@ description: ""
 
 上と同じ著者の本。同じく全体を俯瞰するために。
 
+## あとで読む
+
+{% amazon B008N9I3LS %}
+
 ## その他のキーワード
 
 * [MBTI](http://ja.wikipedia.org/wiki/MBTI) 
