@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+title: kdmsnr.com
 ---
 
 ## About
@@ -51,3 +52,5 @@ Hatena.BookmarkWidget.theme = "default";
 Hatena.BookmarkWidget.load();
 </script>
 </div>
+
+
