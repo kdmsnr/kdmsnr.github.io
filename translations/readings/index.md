@@ -6,108 +6,115 @@ description: ""
 
 いろんな本を翻訳するにあたって、ざっと下読みして……ていうか、山形浩生さんのマネ（ http://cruel.org/reading/ ）。翻訳したいなあと思う本を書いていきます。
 
-----
+## 基本方針
 
-こういう構成が求められる？：
+* もうアジャイル関係の書籍は手を出さなくてもいいかなあ
+* 300ページを超えるとがっつり時間を割かないといけないからちょっと考える
+* あまりにニッチすぎる本は（たとえいい本であっても）読まれないのでちょっと考える
+* 流行を追いかけるだけの本はやりがいがないのでちょっと考える
+* 真面目な本よりは、くだけた本のほうが自分の翻訳口調に合ってる
+* 複数の著者の場合は、口調がばらばらになるので注意が必要
 
-* 企画主旨と背景
-* セールスポイントと特徴
-* 市場動向と想定される対象読者
-* 既存の関連書籍と競合書
+### こういう構成が求められる？
+
+1. 企画主旨と背景
+2. セールスポイントと特徴
+3. 市場動向と想定される対象読者
+4. 既存の関連書籍と競合書
 
 ## Ruby
 
-<dl>
-<dt>Practical Object-Oriented Design in Ruby: An Agile Primer</dt>
-<dd>Rubyを使ったオブジェクト指向設計。→ すでに翻訳決まってる？</dd>
+{% amazon 0321721330 %}
 
-<dt>Ruby Wizardry: An Introduction to Programming for Kids</dt>
-<dd>こども向けのRuby。絵を多用してる。</dd>
+Rubyを使ったオブジェクト指向設計。→ すでに翻訳決まってるらしい？
 
-<dt>Thoughtful Machine Learning</dt>
-<dd>RubyでML。学習用途としてRubyで機械学習の有名で基本的なアルゴリズム（計算の仕組み）を知りたい・組んでみたいという人が対象。ただ、Rubyで行う計算は遅いので、これを読んで実戦投入できない。また、人がゼロから作成した機械学習のプログラムを使うのはバグがまず入っていて危険。機械学習を実務としてやるのならば、RやPythonのscikit-learnを使うことになる。というような評価。ちょっとニッチかなという印象。
-</dd>
+{% amazon 1593275668 %}
 
-<dt>Clean Ruby</dt>
-<dd>DCI……。ちょっと音信不通に。</dd>
-</dl>
+こども向けのRuby。絵を多用してる。でもなあ、これ以上展開がなさそう。
+
+{% amazon 1449374069 %}
+
+RubyでML。学習用途としてRubyで機械学習の有名で基本的なアルゴリズムを知りたい・組んでみたいという人が対象。ちょっとニッチかなという印象。Amazonレビューはすこぶる悪い。
+
+### Clean Ruby
+DCI……。ちょっと音信不通に。
 
 ## Agile
 
-<dl>
-<dt>Coaching Agile Teams: A Companion for ScrumMasters, Agile Coaches, and Project Managers in Transition</dt>
-<dd>アジャイルコーチの本。Pragmaticにも似たようなタイトルの本（『Agile Coaching』）がある。</dd>
+{% amazon B003QP47YG %}
+アジャイルコーチの本。Pragmaticにも似たようなタイトルの本（『Agile Coaching』）がある。
 
-<dt>Learning Agile</dt>
-<dd>まとめ的な。でもなあ、アジャイルサムライあるからなあ。</dd>
-</dl>
+{% amazon 1449331920 %}
+まとめ的な。よくまとまってるけどねえ。でもなあ、アジャイルサムライあるからなあ。
 
-## Lean
-<dl>
-<dt>This is Lean: Resolving the Efficiency Paradox</dt>
-<dd>リーンによる効率化</dd>
+{% amazon 1617292486 %}
+メトリクス
 
-<dt>The Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback</dt>
-<dd>リンスタ的な</dd>
-</dl>
+{% amazon 1617291358 %}
+タイトルに反して、上記の本とかぶる。
+
+## Lean / Lean Startup
+{% amazon 919803930X %}
+リーンによる効率化。日本に留学してたらしい。
+
+{% amazon B00SZ638C8 %}
+リンスタ的な
+
+{% amazon B00XB1P4RE %}
+起業について
+
+{% amazon 144936229X %}
+ハードウェアスタートアップ。Maker寄り。
+
+{% amazon B00YB5Z14A %}
+ハードウェアスタートアップの理論みたいな
+
+## Design / Design Thinking
+{% amazon B015YOJS5O %}
+デザインスプリントの本。概要にすぎないので、あんまり目新しい内容はない。本家との関係は不明。
+
+{% amazon B005SZNED2 %}
+大学教授が書いたビジネスマン向けのデザイン思考。大した内容ではないんだけど……まあビジネス書だからこんなもんか。実践ガイドみたいな本も出てる。
+
 
 ## Data Science
 
-### Data Science for Business
-
-→ 2014/7 翻訳された。『戦略的データサイエンス入門――ビジネスに活かすコンセプトとテクニック』
-
-### Creating a Data-Driven Organization
+{% amazon B012UDK3KG %}
 
 組織によった内容？
 
-### Data Science at the Command Line
 
-→ 2015/9 翻訳された。『コマンドラインではじめるデータサイエンス――分析プロセスを自在に進めるテクニック』
+### Thinking with Data: How to Turn Information into Insights
 
-## misc
+### Data Smart: Using Data Science to Transform Information into Insight
 
-<dl>
+Mailchimpの人
 
-<dt>Implementing Domain-Specific Languages with Xtext and Xtend</dt>
-<dd>EclipseでDSLを作るツールの解説書。</dd>
+### R for Data Science
 
-<dt>Presentation Patterns: Techniques for Crafting Better Presentations</dt>
-<dd>プレゼンテーションパターン。高橋メソッドも載ってる。</dd>
+よさそう
 
-<dt>Real World OCaml</dt>
-<dd>OCaml。510ページだから無理かなあ。</dd>
+## Programming
+{% amazon B00EPCSD1M %}
+EclipseでDSLを作るツールの解説書。アカデミックな人なので文章が明快。
 
-<dt>Design Sprint</dt>
-<dd>デザインスプリントの本。概要にすぎないので、あんまり目新しい内容はない。本家との関係は不明。</dd>
+{% amazon 144932391X %}
+OCaml。510ページだから無理かなあ。
 
-<dt>Blended: Using Disruptive Innovation to Improve Schools</dt>
-<dd>K12の教育。クリステンセン。</dd>
+{% amazon 161729165X %}
+悪くないと思った。
 
-<dt>BDD in Action: Behavior-Driven Development for the whole software lifecycle</dt>
-<dd>BDD</dd>
+{% amazon B00DHRV584 %}
+たのしいScheme
 
-<dt>The Mikado Method</dt>
-<dd>レガシーコードの改善方法</dd>
+{% amazon B00W4DTCSW %}
+女性の著者。AI研究者？
 
-<dt>Prototyping by Todd Zaki Warfel</dt>
-<dd>プロトタイプ</dd>
+{% amazon 1617291218 %}
+レガシーコードの改善方法
 
-<dt>#Workout: Games, Tools & Practices to Engage People, Improve Work, and Delight Clients (Management 3.0) </dt>
-<dd>ワークショップ集</dd>
 
-<dt>CTOs at Work</dt>
-<dd>インタビュー</dd>
-
-<dt>CIOs at Work</dt>
-<dd>インタビュー（ https://www.youtube.com/watch?v=UWbnKPmB-DY ）</dd>
-
-<dt>Realm of Racket</dt>
-<dd>Scheme</dd>
-
-</dl>
-
-### Coding Dojo
+{% amazon 919811803X %}
 
 同人誌時代に翻訳してたんだけど……Pragmatic Bookshelfに売られてしまった!!
 
@@ -172,15 +179,34 @@ http://futurismo.biz/archives/1876
 http://www.atmarkit.co.jp/fcoding/rails/articles/passionate/03/passionate03a.html
 ```
 
-###  Living Clojure
+## misc
+
+<dl>
+
+<dt>Presentation Patterns: Techniques for Crafting Better Presentations</dt>
+<dd>プレゼンテーションパターン。高橋メソッドも載ってる。</dd>
+
+<dt>Blended: Using Disruptive Innovation to Improve Schools</dt>
+<dd>K12の教育。クリステンセン。</dd>
+
+<dt>Prototyping by Todd Zaki Warfel</dt>
+<dd>プロトタイプ</dd>
+
+<dt>#Workout: Games, Tools & Practices to Engage People, Improve Work, and Delight Clients (Management 3.0) </dt>
+<dd>ワークショップ集</dd>
+
+<dt>CTOs at Work</dt>
+<dd>インタビュー</dd>
+
+<dt>CIOs at Work</dt>
+<dd>インタビュー（ https://www.youtube.com/watch?v=UWbnKPmB-DY ）</dd>
+</dl>
+
 
 ###  Building a Better Business Using the Lego Serious Play Method
 シリアスプレイ
-
-###  Designing for Growth
 ###  The Achievement Habit
-###  Agile Metrics in Action
-###  Happy Melly Express
+###  Happy Melly Express の本
 ###  Fifty Quick Ideas To Improve Your Tests
 ###  Fifty Quick Ideas to Improve Your User Stories
 
@@ -192,17 +218,23 @@ http://www.atmarkit.co.jp/fcoding/rails/articles/passionate/03/passionate03a.htm
 
 リーダブルコードっぽい？
 
-### Prototype to Product
-
-Makerっぽい
-
-### The Hardware Startup
-
-スタートアップ
-
 ### Debugging Team
 
 Team Geek の 2nd edition。たぶん翻訳する。
+
+
+### Effective DevOps
+
+
+## ざんねんでした
+
+### Data Science for Business
+
+→ 2014/7 翻訳された。『戦略的データサイエンス入門――ビジネスに活かすコンセプトとテクニック』
+
+### Data Science at the Command Line
+
+→ 2015/9 翻訳された。『コマンドラインではじめるデータサイエンス――分析プロセスを自在に進めるテクニック』
 
 ### The Go Programming Language
 
@@ -215,17 +247,3 @@ Team Geek の 2nd edition。たぶん翻訳する。
 ### How Software Works
 
 『プログラマの考え方〜』の著者の続編。なんか別の人が翻訳するらしい。。。残念。
-
-### Hot Seat: The Startup CEO Guidebook
-
-### Effective DevOps
-
-
-## 基本方針
-
-* もうアジャイル関係の書籍は手を出さなくてもいいかなあ
-* 300ページを超えるとがっつり時間を割かないといけないからちょっと考える
-* あまりにニッチすぎる本は（たとえいい本であっても）読まれないのでちょっと考える
-* 流行を追いかけるだけの本はやりがいがないのでちょっと考える
-* 真面目な本よりは、くだけた本のほうが自分の翻訳口調に合ってる
-* 複数の著者の場合は、口調がばらばらになるので注意が必要
