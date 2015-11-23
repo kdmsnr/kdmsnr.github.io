@@ -30,13 +30,13 @@ https://ja.wikipedia.org/wiki/IMRAD
 
 ## リサーチの前に論文を書く
 
-Simon Peyton-Jones「[PhD: How to write a great research paper](http://research.microsoft.com/apps/video/default.aspx?id=168649)」によれば、リサーチする前に論文を書くべきだそうな。そうするとわかっていないところが事前に明確になるし、周囲に意見を求めることができる。それに、リサーチに時間がかかって論文の締め切りに間に合わなくなることもない。いいことだらけだ。
+Haskellの開発者として有名なSimon Peyton Jonesの「[PhD: How to write a great research paper](http://research.microsoft.com/apps/video/default.aspx?id=168649)」によれば、リサーチする前に論文を書くべきだそうな。そうするとわかっていないところが事前に明確になるし、周囲に意見を求めることができる。それに、リサーチに時間がかかって論文の締め切りに間に合わなくなることもない。いいことだらけだ。
 
-## テーマを決める
+スライドを翻訳してみた↓
 
-論文を書く目的は「役に立つ再利用可能なアイデアを読者に提供する」こと。アイデアは1つだけにする。それはどんなアイデアでも構わない（自分がダメなアイデアだと思っていても！）。
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/u591JexyK3mOXr" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
-## 論文の構成
+### 論文の構成
 
 10 pages くらいの場合:
 
@@ -50,14 +50,12 @@ Simon Peyton-Jones「[PhD: How to write a great research paper](http://research.
 
 機械的に区分けするのではなく、きちんとナラティブになっていることが大切。
 
-### aaa
+関連研究をあとまわしにしているところも特徴。
 
-#### 7つのヒント
+### 7つのヒント
 
-http://research.microsoft.com/apps/video/default.aspx?id=221327
-
-1. Don't wait（とにかく書き始める）
-2. Identify your key idea（「これが私のアイデア」とわかるように）
+1. Don't wait
+2. Identify your key idea
 3. Tell a story
 4. Nail your contributions
 5. Related work: later
