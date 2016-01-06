@@ -24,10 +24,6 @@ description: ""
 
 ## Ruby
 
-{% amazon 0321721330 %}
-
-Rubyを使ったオブジェクト指向設計。→ すでに翻訳決まってるらしい？
-
 {% amazon 1593275668 %}
 
 こども向けのRuby。絵を多用してる。でもなあ、これ以上展開がなさそう。
@@ -42,7 +38,10 @@ DCI……。ちょっと音信不通に。
 ## Agile
 
 {% amazon B003QP47YG %}
-アジャイルコーチの本。Pragmaticにも似たようなタイトルの本（『Agile Coaching』）がある。
+アジャイルコーチの本。
+
+{% amazon 1934356433 %}
+アジャイルコーチの本。
 
 {% amazon 1449331920 %}
 まとめ的な。よくまとまってるけどねえ。でもなあ、アジャイルサムライあるからなあ。
@@ -83,14 +82,13 @@ DCI……。ちょっと音信不通に。
 
 組織によった内容？
 
+{% amazon 1449362931 %}
 
-### Thinking with Data: How to Turn Information into Insights
-
-### Data Smart: Using Data Science to Transform Information into Insight
+{% amazon 111866146X %}
 
 Mailchimpの人
 
-### R for Data Science
+{% amazon 1491910399 %}
 
 よさそう
 
@@ -203,18 +201,22 @@ http://www.atmarkit.co.jp/fcoding/rails/articles/passionate/03/passionate03a.htm
 </dl>
 
 
-###  Building a Better Business Using the Lego Serious Play Method
+{% amazon 1118832450 %}
 シリアスプレイ
-###  The Achievement Habit
-###  Happy Melly Express の本
-###  Fifty Quick Ideas To Improve Your Tests
-###  Fifty Quick Ideas to Improve Your User Stories
 
-### The New How
+{% amazon 0062356100 %}
+
+{% amazon B00XVFFK7E %}
+
+{% amazon B00OGT2U7M %}
+
+{% amazon B017A5HZWS %}
+
+{% amazon B00JPQ4GSC %}
 
 オライリーのビジネス書 http://www.thinkers50.com/t50-awards/awards-2013/
 
-### Becoming a Better Programmer
+{% amazon B00O5HOOU6 %}
 
 リーダブルコードっぽい？
 
@@ -222,8 +224,10 @@ http://www.atmarkit.co.jp/fcoding/rails/articles/passionate/03/passionate03a.htm
 
 Team Geek の 2nd edition。たぶん翻訳する。
 
+### Happy Melly Expressの本いろいろ
 
-### Effective DevOps
+
+{% amazon 1491926309 %}
 
 
 ## ざんねんでした
@@ -247,3 +251,7 @@ Team Geek の 2nd edition。たぶん翻訳する。
 ### How Software Works
 
 『プログラマの考え方〜』の著者の続編。なんか別の人が翻訳するらしい。。。残念。
+
+{% amazon 0321721330 %}
+
+Rubyを使ったオブジェクト指向設計。→ すでに翻訳決まってるらしい？けど、何年もたつ。やらないなら、私に渡してくださいw
