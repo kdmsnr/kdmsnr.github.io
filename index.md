@@ -3,8 +3,6 @@ layout: page
 title: kdmsnr.com
 ---
 
-## About
-
 ![](/images/kdmsnr.jpg)
 ![](/images/kdmsnr-avator.jpg)
 
@@ -45,7 +43,7 @@ title: kdmsnr.com
 
 * 2010-02-25「ユーザーストーリービギンズナイト」
 
-<iframe src="https://channel9.msdn.com/Blogs/tomohn/Suc3rum11/player" width="560" height="315" allowFullScreen frameBorder="0"></iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/Yq6c92wppsQ" frameborder="0" allowfullscreen></iframe>
 
 ## Hot entries
 
@@ -63,3 +61,6 @@ Hatena.BookmarkWidget.load();
 </div>
 
 
+## misc.
+
+* [PofEAA](/pofeaa)
