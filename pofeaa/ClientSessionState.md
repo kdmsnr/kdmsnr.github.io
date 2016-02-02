@@ -1,6 +1,6 @@
 ---
-layout: page
-title: ClientSessionState
+layout: pofeaa
+title: クライアントセッションステート
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/clientSessionState.html

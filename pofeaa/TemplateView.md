@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pofeaa
 title: TemplateView.md
 ---
 

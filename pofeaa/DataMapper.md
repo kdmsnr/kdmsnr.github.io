@@ -1,6 +1,6 @@
 ---
-layout: page
-title: DataMapper.md
+layout: pofeaa
+title: データマッパー
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/dataMapper.html 
@@ -29,4 +29,4 @@ title: DataMapper.md
 DataMapperは、メモリ内のオブジェクトをデータベースから分離するためのソフトウェアレイヤである。
 その責任は両者間でデータを受け渡しすること、そして、両者を分離することである。
 DataMapperを使うと、メモリ内のオブジェクトはどこにデータベースがあるのかすら知る必要がない。SQLインターフェースコードも必要なく、データベーススキーマも知らないだろう。（データベーススキーマは、自分を使用しているオブジェクトのことを常に知らない。）
-Mapper (473)の一種であるため、DataMapperはドメインレイヤのことを知らない。
+[マッパー](Mapper)(473)の一種であるため、DataMapperはドメインレイヤのことを知らない。

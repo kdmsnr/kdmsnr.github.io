@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pofeaa
 title: ReadingPofEAA007.md
 ---
 

@@ -1,6 +1,6 @@
 ---
-layout: page
-title: ApplicationController
+layout: pofeaa
+title: アプリケーションコントローラ
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/applicationController.html

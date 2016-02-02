@@ -1,6 +1,6 @@
 ---
-layout: page
-title: AssociationTableMapping
+layout: pofeaa
+title: 関連テーブルマッピング
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/associationTableMapping.html

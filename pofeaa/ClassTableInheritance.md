@@ -1,6 +1,6 @@
 ---
-layout: page
-title: ClassTableInheritance
+layout: pofeaa
+title: クラステーブル継承
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/classTableInheritance.html

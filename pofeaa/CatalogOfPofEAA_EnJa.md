@@ -1,9 +1,9 @@
 ---
-layout: page
-title: パターン名の比較表
+layout: pofeaa
+title: パターンカタログの比較表
 ---
 
-英語版と日本語版のパターン名の比較表です。
+英語版と日本語版（書籍版）のパターン名の比較表です。
 
 <table>
 <tr><td>TransactionScript (110)</td><td>トランザクションスクリプト(115)</td></tr>

@@ -1,13 +1,11 @@
 ---
-layout: page
-title: OgisRi.md
+layout: pofeaa
+title: オージス総研さんまでのアクセス方法
 ---
 
 読書会のために東京オフィスの会議室を提供してくださいました。ありがとうございます。
 
 http://www.ogis-ri.co.jp/
-
-# オージス総研さんまでのアクセス方法
 
 東京オフィス:
 
