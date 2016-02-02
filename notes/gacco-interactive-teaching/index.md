@@ -52,7 +52,13 @@ https://lms.gacco.org/courses/course-v1:gacco+ga017+2015_11/about
 * ビジュアルシラバス
 
 ## Week6: 学びを促す評価
+* ルーブリック（評価軸の可視化）
 
 
-## Week7: キャリアパスを考える
+## Week7: キャリアパスを考える1
+
+## Week8: キャリアパスを考える2
+* 構造化アカデミックポートフォリオ(SAP: Structured Aca... Pport...)
+  * 構成（教育、研究、サービス、統合）
+
 
