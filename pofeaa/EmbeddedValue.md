@@ -1,16 +1,21 @@
----
+n---
 layout: pofeaa
-title: EmbeddedValue.md
+title: "Embedded Value"
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/embeddedValue.html
 
-*Maps an object into several fields of another object's table.*
+*オブジェクトを他のオブジェクトのテーブルのフィールドにマップする。*
 
 解説の全文は『PofEAA』 **268** ページを参照。
 
 ![](http://www.martinfowler.com/eaaCatalog/aggregateMappingSketch.gif)
 
-Many small objects make sense in an OO system that don't make sense as tables in a database. Examples include currency-aware money objects and date ranges. Although the default thinking is to save an object as a table, no sane person would want a table of money values.
+OOシステムでは意味のある多くの小さなオブジェクトは、
+データベースのテーブルとしては意味がない。
+例えば通貨（お金オブジェクト）や日付範囲などである。
+通常は、オブジェクトはテーブルとして保存するのだが、
+お金の値の入ったテーブルを欲しがる人間はいないだろう。
 
-An Embedded Value maps the values of an object to fields in the record of the object's owner. In the sketch we have an employment object with links to a date range object and a money object. In the resulting table the fields in those objects map to fields in the employment table rather than make new records themselves.
+EmbeddedValueはオブジェクトの値をオブジェクトのオーナーのレコードのフィールドにマップする。スケッチでは、EmployemnetオブジェクトがDateRangeオブジェクトとMoneyオブジェクトにリンクしている。マップ後のテーブルでは、
+この2つのオブジェクトは、自身のテーブルではなく、Employmentテーブルのフィールドにマップされている。

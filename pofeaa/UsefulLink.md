@@ -1,6 +1,6 @@
 ---
 layout: pofeaa
-title: UsefulLink.md
+title: UsefulLink
 ---
 
 ## P of EAA

@@ -5,14 +5,26 @@ title: IdentityMap.md
 
 原文: http://www.martinfowler.com/eaaCatalog/identityMap.html
 
-*Ensures that each object gets loaded only once by keeping every loaded object in a map. Looks up objects using the map when referring to them.*
+*ロードしたオブジェクトをマップに保存して、オブジェクトが一度だけロードされることを保証する。オブジェクトが参照されたときは、マップを使って探し出す。*
 
 解説の全文は『PofEAA』 **195** ページを参照。
 
 ![](http://www.martinfowler.com/eaaCatalog/idMapperSketch.gif)
 
-An old proverb says that a man with two watches never knows what time it is. If two watches are confusing, you can get in an even bigger mess with loading objects from a database. If you aren't careful you can load the data from the same database record into two different objects. Then, when you update them both you'll have an interesting time writing the changes out to the database correctly.
+古くから「時計を2つ持つ者は、決して時間が分からない」と言われる。
+2つの時計が間違っていたら、データベースからオブジェクトをロードする際により大きな混乱に巻き込まれる可能性がある。
+気を付けないと、同じデータベース レコードからデータをロードし、
+異なる2つのオブジェクトに入れてしまうこともある。
+2つのオブジェクトを更新した場合は、
+変更点をデータベースに正しく書き出す際、注意しなければならない。
 
-Related to this is an obvious performance problem. If you load the same data more than once you're incurring an expensive cost in remote calls. Thus, not loading the same data twice doesn't just help correctness, but can also speed up your application.
+これに関係するのは、パフォーマンス問題である。
+同一データを複数回ロードすると、リモート
+コールのコストが高くなっていく。
+従って、同一データのロードを2度行わないことは、
+データの正確性のみならず、アプリケーションのスピードアップにもつながる。
 
-An Identity Map keeps a record of all objects that have been read from the database in a single business transaction. Whenever you want an object, you check the Identity Map first to see if you already have it.
+IdentityMapは、ビジネス
+トランザクション内でデータベースから読み込まれたすべてのオブジェクトのレコードを保持する。
+オブジェクトが必要になったら、まずIdentityMapをチェックし、
+すでに保持しているかどうか確かめる。

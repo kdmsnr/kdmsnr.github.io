@@ -1,18 +1,27 @@
 ---
 layout: pofeaa
-title: FrontController.md
+title: フロントコントローラ
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/frontController.html
 
-*あるWebサイト上での全てのリクエストを扱うコントローラ*
-
-*(A controller that handles all requests for a Web site.)*
+*Webサイトへの全てのリクエストを扱うコントローラ*
 
 解説の全文は『PofEAA』 **344** ページを参照。
 
 ![](http:img/frontController-sketch.gif)
 
-In a complex Web site there are many similar things you need to do when handling a request. These things include security, internationalization, and providing particular views for certain users. If the input controller behavior is scattered across multiple objects, much of this behavior can end up duplicated. Also, it's difficult to change behavior at runtime.
+複雑なWebサイトでリクエストを扱うとき、よく似たことを何度も行う必要がある。
+セキュリティだったり、国際化だったり、ユーザー別のビュー作成だったり。
+インプット
+コントローラの振る舞いがあちこちのオブジェクトに散らばっていたら、
+こういった処理は重複してしまう。
+それに、実行時に処理を変更するということが難しくなる。
 
-The Front Controller consolidates all request handling by channeling requests through a single handler object. This object can carry out common behavior, which can be modified at runtime with decorators. The handler then dispatches to command objects for behavior particular to a request.
+FrontControllerでは、
+ハンドラーオブジェクトをひとつ使ってリクエストを送り届ることで、
+全てのリクエストを取り扱う。
+このオブジェクトは共通の振る舞いを実行する。
+この振る舞いは、デコレータを使うことで実行時に変更が可能だ。
+ハンドラーはコマンド
+オブジェクトにディスパッチして、リクエストごとの処理を行わせる。

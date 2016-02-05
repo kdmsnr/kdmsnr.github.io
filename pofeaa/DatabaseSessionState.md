@@ -1,6 +1,6 @@
 ---
 layout: pofeaa
-title: DatabaseSessionState.md
+title: データベースセッションステート
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/databaseSessionState.html

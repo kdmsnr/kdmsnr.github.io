@@ -5,14 +5,24 @@ title: UnitofWork.md
 
 原文: http://www.martinfowler.com/eaaCatalog/unitOfWork.html
 
-*Maintains a list of objects affected by a business transaction and coordinates the writing out of changes and the resolution of concurrency problems.*
+*ビジネストランザクションの影響を受けるオブジェクト群の保持し、変更点の把握、並行性問題の解決を行う。*
 
 解説の全文は『PofEAA』 **184** ページを参照。
 
-![](http://www.martinfowler.com/eaaCatalog/unitOfWorkInterface.gif)
+![unitOfWorkInterface.gif](http://www.martinfowler.com/eaaCatalog/unitOfWorkInterface.gif)
 
-When you're pulling data in and out of a database, it's important to keep track of what you've changed; otherwise, that data won't be written back into the database. Similarly you have to insert new objects you create and remove any objects you delete.
+データベースからデータを入出力する際、変更点を記録することが重要となる。
+変更点の記録を行わなければ、データベースにデータを正しく書き込むことができない。
+同様に、生成したオブジェクトはデータベースに追加し、
+削除したオブジェクトはデータベースから削除しなければならない。
 
-You can change the database with each change to your object model, but this can lead to lots of very small database calls, which ends up being very slow. Furthermore it requires you to have a transaction open for the whole interaction, which is impractical if you have a business transaction that spans multiple requests. The situation is even worse if you need to keep track of the objects you've read so you can avoid inconsistent reads.
+オブジェクトモデルに変更がある度にデータベースに修正を加えることもできるが、
+非常に小さなデータベース
+コールを大量に行うことになり、パフォーマンスが悪化する。
+その上、このやり取りの間ずっとトランザクションを開いておかねばならない。
+ビジネス トランザクションが複数のリクエストにまたがるのであれば、
+これは現実的な手法ではない。 読み込み一貫性を保持するために
+読み込んだオブジェクトをトレースする必要がある場合はなおのこと、
+これは現実的な手法ではない。
 
-A Unit of Work keeps track of everything you do during a business transaction that can affect the database. When you're done, it figures out everything that needs to be done to alter the database as a result of your work.
+UnitofWorkは、ビジネストランザクションがデータベースに影響を与える間にあなたが行った作業をすべて記録する。作業が終わると、その作業の結果としてデータベースに変更を加えるものをUnitofWorkが導き出す。

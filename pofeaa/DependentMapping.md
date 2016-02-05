@@ -1,6 +1,6 @@
 ---
 layout: pofeaa
-title: DependentMapping.md
+title: 依存マッピング
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/dependentMapping.html
@@ -11,4 +11,4 @@ title: DependentMapping.md
 
 ![](http://www.martinfowler.com/eaaCatalog/dependentObjectSketch.gif)
 
-Some objects naturally appear in the context of other objects. Tracks on an album may be loaded or saved whenever the underlying album is loaded or saved. If they aren't referenced to by any other table in the database, you can simplify the mapping procedure by having the album mapper perform the map-ping for the tracks as well - treating this mapping as a dependent mapping.
+他のオブジェクトのコンテキストで表れるオブジェクトもある。「Album」が読み込まれたり保存されたりすると、「Album」の「Track」も読み込まれたり保存されたりする。データベース内の他のテーブルから参照されていないならば、 「Album Mapper」に「Track」もマップさせるようにすればよい。このようなマッピングをDependentMappingと呼ぶ。

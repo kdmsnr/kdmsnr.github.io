@@ -1,6 +1,6 @@
 ---
 layout: pofeaa
-title: ImplicitLock.md
+title: 暗黙的ロック
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/implicitLock.html
@@ -17,5 +17,5 @@ title: ImplicitLock.md
 
 これについての解決策の1つは、開発者がこのようなミスを犯さないようにすることだ。見逃すことのできないロッキングタスクは開発者によって明示的にではなく、アプリケーションによって暗黙的に扱われるべきなのだ。ほとんどのエンタープライズアプリケーションではフレームワーク、レイヤスーパタイプ(475)、コード生成の組み合わせが使われるという事実により、暗黙的なロックを利用する機会は十分にあるのだ。
 
-# ChangeLog
+## ChangeLog
 - translated by money@andore.com

@@ -1,14 +1,18 @@
 ---
 layout: pofeaa
-title: TransformView.md
+title: TransformView
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/transformView.html
 
-*A view that processes domain data element by element and transforms it into HTML.*
+*ドメイン モデル要素ごとに処理し、HTMLへと変換するビュー。*
 
 解説の全文は『PofEAA』 **361** ページを参照。
 
 ![](http://www.martinfowler.com/eaaCatalog/transformViewSketch.gif)
 
-Transform When you issue requests for data to the domain and data source layers, you get back all the data you need to satisfy them, but without the formatting you need to make a proper Web page. The role of the view in Model View Controller (330) is to render this data into a Web page. Using Transform View means thinking of this as a transformation where you have the model's data as input and its HTML as output.
+ドメインやデータ ソース
+レイヤにデータを要求した際に得たすべてのデータ（まだWebページで表示できる形にはフォーマットされていないデータ）を変換させる。
+[ModelViewController](ModelViewController) (330)
+のViewの役割は、データをWebページ用にレンダリングすることである。
+TransformViewは、モデルのデータをHTMLへ出力させる作業を「トランスフォーメーション」と捉えている。

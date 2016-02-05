@@ -1,6 +1,6 @@
 ---
 layout: pofeaa
-title: ForeignKeyMapping
+title: 外部キーマッピング
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/foreignKeyMapping.html
