@@ -16,8 +16,8 @@ title: ReadingPofEAA001.md
 - 内容
   - 自己紹介など
   - [bliki_ja](http://capsctrl.que.jp/kdmsnr/wiki/bliki/)って何よ
-  - ![](Preface)
-  - ![](Introduction)
+  - Preface
+  - Introduction
 
 - 2次会&[otsukaさん](http://blog.ozacc.com/)[18歳誕生日](http://blog.ozacc.com/archives/000453.html)パーティ（3,700円）
   - 契約の仕方について
