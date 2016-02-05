@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 合意形成のステップ（抵抗のN段階）
+title: "[TOC] 合意形成のステップ（抵抗のN段階）"
 tags: [toc]
 ---
 
