@@ -13,7 +13,7 @@ title: ReadingPofEAA009.md
 - 参加費：無料(終了後の懇親会は実費)
 - 準備物：**A4サイズ**の[ポジションペーパー](PositionPaper)×人数分
   - [ポジションペーパー](PositionPaper)のページも参照してください。
-  - その他、![](用意するもの)ページも参照してください。
+  - その他、用意するものページも参照してください。
 
 ## 【注意】当日の集合は現地ではなく隣の公園です
 
@@ -30,9 +30,9 @@ title: ReadingPofEAA009.md
 
 ### Chapter 12: Object-Relational Structural Patterns
 
-- IdentityField(![](id:backok)さん)
+- IdentityField(id:backokさん)
 - ForeignKeyMapping(中村さん)
-- AssociationTableMapping(![](id:thata)さん)
+- AssociationTableMapping(id:thataさん)
 - DependentMapping(koicさん)
 
 ### WRサーガ:「キュー型トランザクション、どうよ？」 ([WR](http://www.csus4.net/d/)さん)

@@ -10,12 +10,12 @@ title: ReadingPofEAA002.md
 - 場所：渋谷
 - 参加費：1,000円（場所代、お茶代）
 - 参加者：12名
-- 準備物：![](用意するもの)ページ参照
+- 準備物：用意するものページ参照
 
 ## 内容
 1. 自己紹介
-1. ![](Layering) (kdmsnr)
-1. ![](OrganizingDomainLogic) (takai）
+1. [Layering](Layering)  (kdmsnr)
+1. [OrganizingDomainLogic](OrganizingDomainLogic)  (takai）
 1. ディスカッション
 
 # 2次会

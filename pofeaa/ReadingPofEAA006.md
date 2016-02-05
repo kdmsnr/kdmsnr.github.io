@@ -17,7 +17,7 @@ title: ReadingPofEAA006.md
 
 - 参加費：無料(終了後の懇親会は実費)
 - 準備物：**A4サイズ**のポジションペーパー×人数分(参加者は必ず用意してください)
-  - その他、![](用意するもの)ページも参照してください。
+  - その他、用意するものページも参照してください。
 
 ## 内容(予定)
 
@@ -25,10 +25,10 @@ title: ReadingPofEAA006.md
   - 初参加の方3分、初参加ではない方2分
 - 第9章 Domain Logic Patterns
   - TransactionScript（by 中村さん）
-  - DomainModel（by ![](id:aufheben)）
-  - TableModule（by ![](id:afukui)）
-  - ServiceLayer（by ![](id:ogijun)）
-  - アドリブでNext Generation DomainModel（by ![](id:higayasuo)）
+  - DomainModel（by id:aufheben）
+  - TableModule（by id:afukui）
+  - ServiceLayer（by id:ogijun）
+  - アドリブでNext Generation DomainModel（by id:higayasuo）
 
 - WRサーガ:「エンタープライズといえばバッチでしょ」
 

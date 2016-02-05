@@ -15,7 +15,7 @@ title: ReadingPofEAA004.md
 ※第4章は飛ばします。
 
 - ポジションペーパー（立場表明書）ベースの自己紹介
-- Chapter5: Concurrency(第5章 並行性) (by ![](id:ogijun))
+- Chapter5: Concurrency(第5章 並行性) (by id:ogijun)
 - [『.NETエンタープライズWebアプリケーション開発技術大全 Vol.5　トランザクション 設計編』第3部 複雑なトランザクション制御](http://bpstore.nikkeibp.co.jp/nsp/book/04312/04312.html)、のサマリ (by WR)
 - 関連して、もうちょっとネタがあるかも……
 

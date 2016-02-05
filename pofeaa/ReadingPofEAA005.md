@@ -21,14 +21,14 @@ title: ReadingPofEAA005.md
 
 - 参加費：無料(終了後の懇親会は実費)
 - 準備物：**A4サイズ**のポジションペーパー×人数分(参加者は必ず用意してください)
-  - その他、![](用意するもの)ページも参照してください。
+  - その他、「用意するもの」ページも参照してください。
 
 ## 内容
 
 - ポジションペーパー（立場表明書）ベースの自己紹介
   - 初参加の方3分、初参加ではない方2分
-- Chapter 6.  Session State (by ![](id:bakock))
-- Chapter 7.  Distribution Strategies (by ![](id:thata))
+- Chapter 6.  Session State (by id:bakock)
+- Chapter 7.  Distribution Strategies (by id:thata)
 - [『.NETエンタープライズWebアプリケーション開発技術大全 Vol.5　トランザクション 設計編』第3部 複雑なトランザクション制御](http://bpstore.nikkeibp.co.jp/nsp/book/04312/04312.html)のサマリ (by WR)
 - かたづけながらふりかえり
 

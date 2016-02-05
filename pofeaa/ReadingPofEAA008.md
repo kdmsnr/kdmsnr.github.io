@@ -13,7 +13,7 @@ title: ReadingPofEAA008.md
 - 参加費：無料(終了後の懇親会は実費)
 - 準備物：**A4サイズ**の[ポジションペーパー](PositionPaper)×人数分
   - [ポジションペーパー](PositionPaper)のページも参照してください。
-  - その他、![](用意するもの)ページも参照してください。
+  - その他、用意するものページも参照してください。
 
 ## 【注意】当日の集合は現地ではなく隣の公園です
 
@@ -29,8 +29,8 @@ title: ReadingPofEAA008.md
 ### 第11章 Object-Relational Behavioral Patterns
 
 - UnitOfWork ([たかはし](http://rektunpe.sakura.ne.jp/diary/)さん)
-- IdentityMap ([kdmsnr](http://capsctrl.que.jp/kdmsnr/diary/)さん)
-- LazyLoad (![](id:t-wada)さん)
+- IdentityMap (kdmsnrさん)
+- LazyLoad (id:t-wadaさん)
 - WRサーガ特集:「協調性がない子とどうつきあうか。」 ([WR](http://www.csus4.net/d/)さん)
 
 ## ふりかえり

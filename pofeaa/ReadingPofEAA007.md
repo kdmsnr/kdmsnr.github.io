@@ -13,7 +13,7 @@ title: ReadingPofEAA007.md
 - 参加費：無料(終了後の懇親会は実費)
 - 準備物：**A4サイズ**の[ポジションペーパー](PositionPaper)×人数分
   - [ポジションペーパー](PositionPaper)のページも参照してください。
-  - その他、![](用意するもの)ページも参照してください。
+  - その他、用意するものページも参照してください。
 
 ## 【注意】当日の集合は現地ではなく隣の公園です
 
@@ -30,7 +30,7 @@ title: ReadingPofEAA007.md
 - TableDataGateway(わたなべさん)
 - RowDataGateway(和田さん)
 - ActiveRecord([inoue](http://dev.rakusui.jp/diary/)さん)
-- DataMapper(![](id:bakock)さん)
+- DataMapper(id:bakockさん)
 
 ### ボーナストラック
 
@@ -41,8 +41,8 @@ title: ReadingPofEAA007.md
 
 ### KEEP
 - 名札!!
-- ![](id:secondlife)さんがすぐ実装しちゃう
-- 書籍のカウントダウンオークション(今回は![](id:ogijun)さん)
+- id:secondlife さんがすぐ実装しちゃう
+- 書籍のカウントダウンオークション(今回は id:ogijun さん)
 - 和田さんの発表(自分はここがわからない！と参加者に問う形式)
 - はてなブックマークブックマーク(KEEPかよ!)
 
