@@ -1,6 +1,6 @@
 ---
 layout: pofeaa
-title: PageController.md
+title: ページコントローラ
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/pageController.html

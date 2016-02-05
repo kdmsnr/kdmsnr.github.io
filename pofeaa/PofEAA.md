@@ -1,6 +1,6 @@
 ---
 layout: pofeaa
-title: PofEAA.md
+title: PofEAA
 ---
 
 

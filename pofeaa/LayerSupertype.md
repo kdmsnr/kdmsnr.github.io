@@ -1,6 +1,6 @@
 ---
 layout: pofeaa
-title: LayerSupertype.md
+title: レイヤスーパータイプ
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/layerSupertype.html

@@ -1,6 +1,6 @@
 ---
 layout: pofeaa
-title: Layering.md
+title: レイヤリング
 ---
 
 # 本章で言及されているパターン(出てきた順)

@@ -1,6 +1,6 @@
 ---
 layout: pofeaa
-title: Introduction.md
+title: Introduction
 ---
 
 ## 1
@@ -24,8 +24,3 @@ title: Introduction.md
 
 - エンタープライズアプリケーションとは何か。何ではないか。
 
-# 資料 by kdmsnr
-
-パスワードが必要です。
-
-- http://capsctrl.que.jp/kdmsnr/file/pofeaa/ReadingPofEAA_002.txt 
