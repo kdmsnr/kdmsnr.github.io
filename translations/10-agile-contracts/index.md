@@ -1,7 +1,6 @@
 ---
 layout: page
 title: 次のアジャイルソフトウェアプロジェクトに使える10の契約
-description: 以下の
 ---
 
 2009/4/29 by [peterstev](http://agilesoftwaredevelopment.com/user/peterstev)

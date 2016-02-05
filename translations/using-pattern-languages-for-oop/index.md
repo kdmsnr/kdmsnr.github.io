@@ -1,7 +1,6 @@
 ---
 layout: page
 title: オブジェクト指向プログラムのためのパターンランゲージの使用
-description: ""
 ---
 
 <hr />
