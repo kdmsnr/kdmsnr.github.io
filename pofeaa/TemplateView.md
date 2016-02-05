@@ -1,22 +1,37 @@
 ---
 layout: pofeaa
-title: TemplateView.md
+title: TemplateView
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/templateView.html
 
 *HTMLページにマーカを埋め込むことにより、情報をHTMLの形で表現する*
 
-*(Renders information into HTML by embedding markers in an HTML page.)*
-
 解説の全文は『PofEAA』 **350** ページを参照。
 
 ![](http://www.martinfowler.com/eaaCatalog/templateViewSketch.gif)
 
-Writing a program that spits out HTML is often more difficult than you might imagine. Although programming languages are better at creating text than they used to be (some of us remember character handling in Fortran and stan-dard Pascal), creating and concatenating string constructs is still painful. If there isn't much to do, it isn't too bad, but a whole HTML page is a lot of text manipulation.
+HTMLを吐くプログラムを書くのは、想像以上に難しい。
+以前よりはマシになったが
+（FotranやPascalでの文字操作を覚えている方もいるだろう）、
+文字列の生成や連結はいまだに骨が折れる。
+作業量が少なければそれほど問題にはならないが、
+全てのHTMLページを作成するとなると、
+膨大なテキスト処理が必要となってくる。
 
-With static HTML pages - those that don't change from request to request - you can use nice WYSIWG editors. Even those of us who like raw text editors find it easier to just type in the text and tags rather than fiddle with string con-catenation in a programming language.
+静的な（リクエストによって変更する必要のない）HTMLページならば、
+素晴らしいWYSIWGツールで作ればよい。
+エディタでごりごりやるのが好きな我々みたいな人間でも、
+テキストを打ってタグで囲めばよいのだから、
+プログラムから文字列を生成させるよりも簡単だろう。
 
-Of course the issue is with dynamic Web pages - those that take the results of something like database queries and embed them into the HTML. The page looks different with each result, and as a result regular HTML editors aren't up to the job.
+もちろん、ここで話題となっているのは、動的なWebページだ
+（データベースのクエリ結果などを受け取り、HTMLの中に埋め込んだもの）。
+動的なページはリクエストによって見た目が変わるため、
+通常のHTMLエディタではお手上げである。
 
-The best way to work is to compose the dynamic Web page as you do a static page but put in markers that can be resolved into calls to gather dynamic information. Since the static part of the page acts as a template for the particular response, I call this a Template View.
+最善の方法は、静的なページと同じにようにWebページを作ることである。
+ただし、ページにはマーカーを埋め込んでおき、
+それによって動的な情報をかき集める。
+このとき、ページの静的な部分はテンプレートとして機能する。 私はこれを
+Template View と呼ぶね。

@@ -1,16 +1,24 @@
 ---
 layout: pofeaa
-title: RowDataGateway.md
+title: RowDataGateway
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/rowDataGateway.html
 
-*An object that acts as a Gateway (466) to a single record in a data source. There is one instance per row.*
+*データソースにあるひとつのレコードへの Gateway (466)として振舞うオブジェクト。いちレコード（一行）につき、いちインスタンスとなる。*
 
 解説の全文は『PofEAA』 **152** ページを参照。
 
 ![](http://www.martinfowler.com/eaaCatalog/dbgateRow.gif)
 
-Embedding database access code in in-memory objects can leave you with a few disadvantages. For a start, if your in-memory objects have business logic of their own, adding the database manipulation code increases complexity. Testing is awkward too since, if your in-memory objects are tied to a database, tests are slower to run because of all the database access. You may have to access multiple databases with all those annoying little variations on their SQL.
+メモリ内のオブジェクトにデータベースアクセスコードを埋め込むと、厄介なことになる。
+まず、メモリ内のオブジェクトにビジネスロジックがある場合、
+そこにデータベース操作コードを追加すると複雑性が増す。
+メモリ内のオブジェクトがデータベースと密結合している場合、テストも厄介になる。
+テストを走らせるたびにデータベースに接続するため、テストが遅くなるからだ。
+複数のデータベースにアクセスする必要があるが、
+SQLのちょっとずつ違うということもあるだろう。
 
-A Row Data Gateway gives you objects that look exactly like the record in your record structure but can be accessed with the regular mechanisms of your programming language. All details of data source access are hidden behind this interface.
+RowDataGatewayは、レコード構造のレコードのようなオブジェクトを提供する。
+レコードのようとはいえ、通常のプログラミング言語でアクセス可能である。
+データソースへのアクセス処理は、このインターフェースの裏に隠されている。

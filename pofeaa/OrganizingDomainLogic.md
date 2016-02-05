@@ -3,8 +3,6 @@ layout: pofeaa
 title: OrganizingDomainLogic.md
 ---
 
-- 予習スレ…![](BBS)
-
 # 本章で言及されているパターン(出てきた順)
 - TransactionScript(110)
 - DomainModel(116)
@@ -21,7 +19,5 @@ title: OrganizingDomainLogic.md
 
 # 資料 by takai
 
-http://capsctrl.que.jp/kdmsnr/file/pofeaa/OrganizingDomainLogic.pdf
+[OrganizingDomainLogic.pdf](OrganizingDomainLogic.pdf)
 
-# 懸田さんのマインドマップ ※つっこみ歓迎
-http://capsctrl.que.jp/kdmsnr/wiki/PofEAA/img/MindMap_OrganizingDomainLogic.png

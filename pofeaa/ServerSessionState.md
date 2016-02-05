@@ -1,6 +1,6 @@
 ---
 layout: pofeaa
-title: ServerSessionState.md
+title: サーバーセッションステート
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/serverSessionState.html

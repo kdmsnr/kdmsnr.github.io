@@ -1,6 +1,6 @@
 ---
 layout: pofeaa
-title: QueryObject.md
+title: QueryObject
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/queryObject.html

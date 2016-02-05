@@ -1,6 +1,6 @@
 ---
 layout: pofeaa
-title: PofEAAReadingMailingList.md
+title: PofEAA読書会メーリングリスト
 ---
 
 

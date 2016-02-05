@@ -1,6 +1,6 @@
 ---
 layout: pofeaa
-title: SpecialCase.md
+title: SpecialCase
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/specialCase.html

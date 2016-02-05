@@ -1,16 +1,20 @@
 ---
 layout: pofeaa
-title: TableDataGateway.md
+title: テーブルデータゲートウェイ
 ---
 
 原文: http://www.martinfowler.com/eaaCatalog/tableDataGateway.html
 
-*An object that acts as a Gateway (466) to a database table. One instance handles all the rows in the table.*
+*データベース テーブルへの Gateway (466)として振舞うオブジェクト。インスタンスはテーブル内のすべての行を操作する。*
 
 解説の全文は『PofEAA』 **144** ページを参照。
 
 ![](http://www.martinfowler.com/eaaCatalog/dbgateTable.gif)
 
-Mixing SQL in application logic can cause several problems. Many developers aren't comfortable with SQL, and many who are comfortable may not write it well. Database administrators need to be able to find SQL easily so they can figure out how to tune and evolve the database.
+アプリケーションロジック内でSQLをミックスすると、いくつか問題が起きる。
+多くの開発者はSQLに不慣れで、慣れている人間でもうまく書ける者は少ないだろう。
+データベース管理者の場合は、
+データベースのチューニングや変更を行うためにも
+SQLを簡単に扱える必要がある。
 
-A Table Data Gateway holds all the SQL for accessing a single table or view: selects, inserts, updates, and deletes. Other code calls its methods for all interaction with the database.
+TableDataGatewayは、テーブルまたはビューにアクセスするすべてのSQL（select、insert、update、delete）を扱う。他のコードはTableDataGatewayのメソッドを呼び出し、データベースとやり取りする。
