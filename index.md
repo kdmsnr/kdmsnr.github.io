@@ -63,4 +63,5 @@ Hatena.BookmarkWidget.load();
 
 ## misc.
 
-* [PofEAA](/pofeaa)
+* [bliki-ja](http://bliki-ja.github.io/)
+* [PofEAA](http://bliki-ja.github.io/pofeaa/)
