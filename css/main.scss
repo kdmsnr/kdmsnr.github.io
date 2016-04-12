@@ -6,10 +6,13 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+//"Hiragino Mincho ProN","メイリオ", sans-serif;
+$bold-font-family: "Hiragino Kaku Gothic StdN","メイリオ", sans-serif;
+//Helvetica, Arial, sans-serif;
+$base-font-size:   20px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.58;
 
 $spacing-unit:     30px;
 
