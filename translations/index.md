@@ -19,6 +19,7 @@ description: ""
 * [スクラムガイド](http://www.scrumguides.org/download.html)
 * [Nexusガイド](https://www.scrum.org/Resources/The-Nexus-Guide/Downloads)
 * [LEGOを使ったスクラムシミュレーション（レゴスクラム）](http://www.lego4scrum.com/translations/)
+* [eduScrumガイド](http://eduscrum.nl/en/links)
 * [Martin Fowler's Bliki](http://bliki-ja.github.io/)
 
 ## 翻訳したもの（書籍）
