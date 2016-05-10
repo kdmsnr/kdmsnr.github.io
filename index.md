@@ -3,13 +3,7 @@ layout: page
 title: kdmsnr.com
 ---
 
-![](/images/kdmsnr.jpg)
-![](/images/kdmsnr-avator.jpg)
-
-* [ワイクル株式会社](http://www.waicrew.com)（取締役、プログラマ、コンサルタント）
-* [東京工業大学環境・社会理工学院](http://t2r2.star.titech.ac.jp/cgi-bin/researcherinfo.cgi?q_researcher_content_number=CTT100692413)（特任講師）
-
-リーンスタートアップを用いた新規事業開発や、アジャイルソフトウェア開発手法の導入支援に従事。支援先は、情報通信業、製造業、卸売業、金融業、不動産業、飲食店、小売業、広告業、教育・学習支援業など多数。大学ではアントレプレナー教育（デザイン思考の講義）を担当。リーンスタートアップ、アジャイル開発、組織変革、チームビルディング、プログラミングに関する[翻訳書を数多く手がけている](http://www.amazon.co.jp/-/e/B00429JIAI)。特に『リーダブルコード』（オライリー・ジャパン）は、ジュンク堂書店「このコンピュータ書がすごい！」で3年連続1位。5万部を突破している。
+{% include profile.html %}
 
 ### 所属学会
 * ACM
