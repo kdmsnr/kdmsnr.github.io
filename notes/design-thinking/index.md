@@ -41,6 +41,7 @@ description: ""
 * 共感マップ
 * CJM or サービスブループリント
 * Point Of View: [USER] needs to [USER'S NEED] because [SURPRISING INSIGHT]
+* インサイトの抽出法としてのTCS（[Tensions], [Contradictions], [Surprises]）
 * 強制的なリフレーミングのための何かが必要そう
 
 ### 3. 創造（ソリューションの決定）
