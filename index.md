@@ -5,11 +5,12 @@ title: kdmsnr.com
 
 {% include profile.html %}
 
+<!--
+
 ### 所属学会
 * ACM
 * 経営情報学会（JASMIN）
 
-<!--
 * 情報処理学会（IPSJ）
 * 経営行動科学学会（JAAS）
 -->
@@ -17,7 +18,7 @@ title: kdmsnr.com
 ## Blog
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:5 %}
     <li>
       <span class="post-meta">{{ post.date | date: "%Y-%m-%d"}}</span>
       <a href="{{ post.url | replace: 'index.html', ''}}">{{ post.title }}</a>

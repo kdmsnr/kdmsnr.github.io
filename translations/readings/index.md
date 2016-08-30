@@ -4,7 +4,7 @@ title: いろんな査読
 description: ""
 ---
 
-いろんな本を翻訳するにあたって、ざっと下読みして……ていうか、山形浩生さんのマネ（ http://cruel.org/reading/ ）。翻訳したいなあと思う本を書いていきます。
+いろんな本を翻訳するにあたって、ざっと下読みして……ていうか、山形浩生さんのマネ（ http://cruel.org/reading/ ）。翻訳したいなあと思う本を書いていきます。ご依頼があれば、お問い合わせください。
 
 ## 基本方針
 
@@ -38,9 +38,6 @@ DCI……。ちょっと音信不通に。
 ## Agile
 
 {% amazon B003QP47YG %}
-アジャイルコーチの本。
-
-{% amazon 1934356433 %}
 アジャイルコーチの本。
 
 {% amazon 1449331920 %}
@@ -201,9 +198,6 @@ http://www.atmarkit.co.jp/fcoding/rails/articles/passionate/03/passionate03a.htm
 </dl>
 
 
-{% amazon 1118832450 %}
-シリアスプレイ
-
 {% amazon 0062356100 %}
 
 {% amazon B00XVFFK7E %}
@@ -228,30 +222,3 @@ Team Geek の 2nd edition。たぶん翻訳する。
 
 
 {% amazon 1491926309 %}
-
-
-## ざんねんでした
-
-### Data Science for Business
-
-→ 2014/7 翻訳された。『戦略的データサイエンス入門――ビジネスに活かすコンセプトとテクニック』
-
-### Data Science at the Command Line
-
-→ 2015/9 翻訳された。『コマンドラインではじめるデータサイエンス――分析プロセスを自在に進めるテクニック』
-
-### The Go Programming Language
-
-カーニハン。すでにどこかに取られたらしい。大人気。
-
-### Soft Skills Software Developers Manual
-
-ひげぽんさんで人気になったが、大人気でどこかが取得。
-
-### How Software Works
-
-『プログラマの考え方〜』の著者の続編。なんか別の人が翻訳するらしい。。。残念。
-
-{% amazon 0321721330 %}
-
-Rubyを使ったオブジェクト指向設計。→ すでに翻訳決まってるらしい？けど、何年もたつ。やらないなら、私に渡してくださいw
