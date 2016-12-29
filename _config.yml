@@ -3,7 +3,7 @@ title: kdmsnr.com
 email: kdmsnr@gmail.com
 description: "角征典's Web Site"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://kdmsnr.com" # the base hostname & protocol for your site
+url: "https://kdmsnr.com" # the base hostname & protocol for your site
 twitter_username: kdmsnr
 github_username:  kdmsnr
 timezone: Asia/Tokyo
