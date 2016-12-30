@@ -3,7 +3,9 @@
   <div class="wrapper">
 
     <p class="footer-heading">
+      {% if page.dir != "/" %}
       {% include profile.html %}
+      {% endif %}
     </p>
 
     <div class="footer-col-wrapper">
