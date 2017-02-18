@@ -146,9 +146,12 @@ title: kdmsnr.com
 - とちぎRuby会議02「儲かるRuby」（2009-10-24）
 - WikiばなVol.7「Wikiパターン」（2009-08-08）
 
-## イベント主催
+## イベント主催・スタッフ
 
 ### 2017
+- [第3回 東京工業大学 エンジニアリングデザインコンペティション](http://www.eng.titech.ac.jp/~cbe/competition2017/)（2017-02-18）
+- [TdX講演会#07「チームとアジャイルなソフトウェアづくり」](https://cbec-titech.connpass.com/event/48167/)（2017-01-31）
+  - ゲスト：Aki Saarinen、角谷 信太郎
 - レイチェルと学ぶアジャイルコーチングのスキル（2017-01-10）
   - ゲスト：Rachel Davies
 
@@ -191,7 +194,7 @@ title: kdmsnr.com
 
 ## 学会運営
 
-- イノベーション教育学会 第4回年次大会（2016-06-18、19）
+- [イノベーション教育学会 第4回年次大会](https://iec2016.sched.com/)（2016-06-18、19）
 
 ## Blog
 
@@ -207,6 +210,6 @@ title: kdmsnr.com
 ## その他のサイト
 
 * [bliki-ja](http://bliki-ja.github.io/) ｜ Martin Fowler's Bliki の翻訳
-* [PofEAA](http://bliki-ja.github.io/pofeaa/)
+* [PofEAA](http://bliki-ja.github.io/pofeaa/) 
 * [Re:VIEW](https://github.com/kmuto/review) ｜コミッターとして開発に参加しているRuby製の出版システム
 * [いろいろ翻訳したもの](/translations/)
