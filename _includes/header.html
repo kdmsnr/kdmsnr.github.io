@@ -14,11 +14,17 @@
       </a>
 
       <div class="trigger">
-<a class="page-link" href="/blog/">blog</a>
-<a class="page-link" href="/bib/">books</a>
-<a class="page-link" href="/notes/">notes</a>
-<a class="page-link" href="/translations/">translations</a>
-<a class="page-link" href="http://www.waicrew.com/form/">contact (Waicrew Inc.)</a>
+
+
+{% assign nav_pages = "/blog/,/publication/,/seminar/,/bib/,/notes/,/translations/" | split: ',' %}
+{% assign pages = site.pages | sort: 'order' %}
+{% for p in pages %}
+{% if nav_pages contains p.dir %}
+<a class="page-link" href="{{ p.dir }}">{{ p.title }}</a>
+{% endif %}
+{% endfor %}
+<a class="page-link" href="http://www.waicrew.com/form/">お問い合せ（会社）</a>
+
 {% for page in site.pages %}
 {% if page.title %}
 {% comment %}<a class="page-link" href="{{ page.dir | prepend: site.baseurl }}">{{ page.title }}</a>{% endcomment %}

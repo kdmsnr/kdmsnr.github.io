@@ -2,6 +2,7 @@
 layout: page
 title: 翻訳
 description: ""
+order: 4
 ---
 
 ## 翻訳したもの

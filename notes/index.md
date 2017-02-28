@@ -2,6 +2,7 @@
 layout: page
 title: メモ
 description: ""
+order: 10
 ---
 
 {% capture pageinfo %}{% for page in site.pages %}{% if page.dir contains 'notes' %}{% if page.dir != '/notes/' %}{{ page.title }}{% unless forloop.last %},{% endunless %}{% endif %}{% endif %}{% endfor %}{% endcapture %}

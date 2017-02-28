@@ -1,7 +1,8 @@
 ---
 layout: page
-title: 解説付き参考文献
+title: 参考文献
 description: ""
+order: 100
 ---
 
 {% capture pageinfo %}{% for page in site.pages %}{% if page.dir contains 'bib' %}{% if page.dir != '/bib/' %}{{ page.title }}{% unless forloop.last %},{% endunless %}{% endif %}{% endif %}{% endfor %}{% endcapture %}
