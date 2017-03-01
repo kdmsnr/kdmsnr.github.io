@@ -12,3 +12,8 @@ order: 1
     </li>
   {% endfor %}
 </ul>
+
+
+## その他のブログ
+
+* [東京工業大学エンジニアリングデザインプロジェクト – Medium](https://medium.com/titech-eng-and-design)
