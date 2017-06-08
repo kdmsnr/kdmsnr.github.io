@@ -16,13 +16,14 @@
       <div class="trigger">
 
 
-{% assign nav_pages = "/blog/,/publication/,/seminar/,/bib/,/notes/,/translations/" | split: ',' %}
+{% assign nav_pages = "/blog/,/publication/,/seminar/,/bib/,/translations/" | split: ',' %}
 {% assign pages = site.pages | sort: 'order' %}
 {% for p in pages %}
 {% if nav_pages contains p.dir %}
 <a class="page-link" href="{{ p.dir }}">{{ p.title }}</a>
 {% endif %}
 {% endfor %}
+<a class="page-link" href="https://scrapbox.io/kdmsnr/">メモ</a>
 <a class="page-link" href="http://www.waicrew.com/form/">お問い合せ（会社）</a>
 
 {% for page in site.pages %}
