@@ -11,6 +11,10 @@ order: 3
 
 ## 講演
 
+### 2017
+
+- [エンタープライズアジャイル勉強会2017年7月セミナー](https://easg.smartcore.jp/C22/notice_details/QkdKU1pnPT0=)（2017-07-19）
+
 ### 2016
 
 - [Kanban Casual Talks](https://orajp.connpass.com/event/30707/)（2016-05-19）
@@ -65,7 +69,15 @@ order: 3
 - とちぎRuby会議02「儲かるRuby」（2009-10-24）
 - WikiばなVol.7「Wikiパターン」（2009-08-08）
 
-## 授業
+## 講義
+
+### 2017年度
+
+- [産業技術大学院大学 アジャイル開発概論](https://www.fisdom.org/F00000033/)（e-learning）
+- 東京工業大学 エンジニアリングデザインプロジェクトC
+- 東京工業大学 エンジニアリングデザインプロジェクトB
+- 東京工業大学 エンジニアリングデザインプロジェクトA
+- 東京工業大学 デザイン思考基礎
 
 ### 2016年度
 
@@ -81,20 +93,21 @@ order: 3
 - 東京工業大学 エンジニアリングデザインプロジェクトA
 - 東京工業大学 デザイン思考基礎
 
-## 学会運営
-
-- [イノベーション教育学会 第4回年次大会](https://iec2016.sched.com/)（2016-06-18、19）
-
-## イベント主催・スタッフ
+## 企画・運営
 
 ### 2017
+
+- [Hack U 東京工業大学 2017](https://hacku.yahoo.co.jp/titech2017/)（2017-07）
+- [リーンエンタープライズワークショップ](https://waicrew.doorkeeper.jp/events/56440)（2017-05-12）
+  - ゲスト：Barry O'Reilly
 - [第3回 東京工業大学 エンジニアリングデザインコンペティション](http://www.eng.titech.ac.jp/~cbe/competition2017/)（2017-02-18）
 - [TdX講演会#07「チームとアジャイルなソフトウェアづくり」](https://cbec-titech.connpass.com/event/48167/)（2017-01-31）
   - ゲスト：Aki Saarinen、角谷 信太郎
-- レイチェルと学ぶアジャイルコーチングのスキル（2017-01-10）
+- [レイチェルと学ぶアジャイルコーチングのスキル](https://waicrew.doorkeeper.jp/events/54120)（2017-01-10）
   - ゲスト：Rachel Davies
 
 ### 2016
+
 - CoderDojoすぎなみ（2016〜）
 - 大企業で実現するリーンスタートアップ（2016-10-27）
   - ゲスト：Barry O'Reilly
@@ -109,6 +122,7 @@ order: 3
 - [中高生のための夏休みプログラミング教室](https://cbec-titech.connpass.com/event/34596/)（2016-08-12、14）
 - [TdX講演会#04「チームと日本発のIoTプラットフォームづくり」](https://cbec-titech.connpass.com/event/32955/)（2016-07-08）
   - ゲスト：安川健太
+- [イノベーション教育学会 第4回年次大会](https://iec2016.sched.com/)（2016-06-18〜19）
 - [Hack U 東京工業大学 2016](http://hacku.yahoo.co.jp/titech2016/)（2016-06-11）
 - [TdX講演会#03「チームとニコニコ学会βづくり」](https://cbec-titech.connpass.com/event/30229/)（2016-06-17）
   - ゲスト：江渡浩一郎、湯村翼、くとの
