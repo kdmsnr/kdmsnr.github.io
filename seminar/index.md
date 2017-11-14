@@ -5,9 +5,7 @@ description: ""
 order: 3
 ---
 
-使用したスライドは[SlideShare](http://www.slideshare.net/kdmsnr/)にアップしています。
-
-<iframe src="http://www.slideshare.net/kdmsnr/slideshelf" width="615px" height="470px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+過去に使用したスライドは、[SlideShare](http://www.slideshare.net/kdmsnr/)や[SpeakerDeck](https://speakerdeck.com/kdmsnr)にアップしています。
 
 ## 講演
 

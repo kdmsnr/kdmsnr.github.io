@@ -8,7 +8,7 @@ title: kdmsnr.com
 ## 所属
 
 * <a href="http://www.waicrew.com">ワイクル株式会社</a>（代表取締役）
-* 東京工業大学 環境・社会理工学院（<a href="http://t2r2.star.titech.ac.jp/cgi-bin/researcherinfo.cgi?q_researcher_content_number=CTT100692413">特任講師</a>）
+* 東京工業大学 環境・社会理工学院 融合理工学系（<a href="http://t2r2.star.titech.ac.jp/cgi-bin/researcherinfo.cgi?q_researcher_content_number=CTT100692413">特任講師</a>）
 
 ## 職歴
 
@@ -18,6 +18,8 @@ title: kdmsnr.com
 * 2005年10月-2008年7月｜株式会社ツインスパーク（プログラマ）
 * 2003年11月-2005年10月｜日揮情報ソフトウェア（エンジニア）
 * 2001年4月-2003年10月｜株式会社内田洋行（エンジニア）
+
+{% comment %}
 
 ## Blog
 
@@ -29,6 +31,8 @@ title: kdmsnr.com
     </li>
   {% endfor %}
 </ul>
+
+{% endcomment %}
 
 ## その他のサイト
 
