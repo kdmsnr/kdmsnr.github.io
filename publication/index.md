@@ -62,6 +62,7 @@ order: 2
 
 ## ウェブ（掲載）
 
+- [天才でなくていい！『Team Geek』訳者・角 征典と考える、チームに貢献するエンジニアの気配り力 - エンジニアHub｜若手Webエンジニアのキャリアを考える！](https://employment.en-japan.com/engineerhub/entry/2017/12/20/110000)
 - [「教わるのではなく学び取る」、子供向けプログラミング道場「CoderDojo」が全国で急増中](http://itpro.nikkeibp.co.jp/atcl/interview/14/262522/102600287/)（2016-10-28）
 - [受賞作品発表！「ITエンジニアに読んでほしい！ 技術書・ビジネス書大賞 2015」](https://codezine.jp/article/detail/8612)（2015-04-14）
 - [「いいプロダクトを作りたい」人に有効な「リーン＋アジャイル」な開発とは？](https://enterprisezine.jp/bizgene/detail/5050)（2013-08-21）
