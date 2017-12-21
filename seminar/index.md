@@ -11,6 +11,7 @@ order: 3
 
 ### 2017
 
+- [Lean Startup Update! 2018 〜3年間のリーンスタートアップのアップデート会〜 - connpass](https://leanstartup.connpass.com/event/72252/)（2017-12-13）
 - [エンタープライズアジャイル勉強会2017年7月セミナー](https://easg.smartcore.jp/C22/notice_details/QkdKU1pnPT0=)（2017-07-19）
 
 ### 2016
