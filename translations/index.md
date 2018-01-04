@@ -7,7 +7,7 @@ order: 4
 
 書籍の翻訳については、[Amazonの著者ページ](http://www.amazon.co.jp/-/e/B00429JIAI)を参照してください。
 
-## 翻訳したもの
+# 翻訳したもの
 <ul>
 {% for page in site.pages %}
   {% if page.dir contains 'translations'%}
@@ -18,13 +18,13 @@ order: 4
 {% endfor %}
 </ul>
 
-## 翻訳したもの（外部サイトにあるもの）
+# 翻訳したもの（外部サイトにあるもの）
 * [スクラムガイド](http://www.scrumguides.org/download.html)
 * [Nexusガイド](https://www.scrum.org/Resources/The-Nexus-Guide/Downloads)
 * [LEGOを使ったスクラムシミュレーション（レゴスクラム）](http://www.lego4scrum.com/translations/)
 * [eduScrumガイド](http://eduscrum.nl/en/links)
 * [Martin Fowler's Bliki](http://bliki-ja.github.io/)
 
-## これから翻訳したいなあと思うもの
+# これから翻訳したいなあと思うもの
 
 * [翻訳査読](readings)

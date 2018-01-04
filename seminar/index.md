@@ -7,21 +7,21 @@ order: 3
 
 過去に使用したスライドは、[SlideShare](http://www.slideshare.net/kdmsnr/)や[SpeakerDeck](https://speakerdeck.com/kdmsnr)にアップしています。
 
-## 講演
+# 講演
 
-### 2017
+## 2017
 
 - [Lean Startup Update! 2018 〜3年間のリーンスタートアップのアップデート会〜](https://leanstartup.connpass.com/event/72252/)（2017-12-13）
 - [エンタープライズアジャイル勉強会2017年7月セミナー](https://easg.smartcore.jp/C22/notice_details/QkdKU1pnPT0=)（2017-07-19）
 
-### 2016
+## 2016
 
 - [Kanban Casual Talks](https://orajp.connpass.com/event/30707/)（2016-05-19）
 - 大田区産業振興協会イノベーション創出セミナー（2016-03-25）
 - 産業技術大学院大学2015年度enPiTプログラム成果発表会「アジャイル開発とその拡散」（2016-02-27）
 - Scrum Gathering Tokyo 2016「レゴスクラムの覚醒」（2016-01-19）
 
-### 2015
+## 2015
 
 - 香川大学工学部 特別講義「XPペア計画ゲーム」（2015-11-06）香川大学
 - 情報処理学会四国支部 特別講義「アジャイル開発の勧め」（2015-11-06）香川大学
@@ -33,7 +33,7 @@ order: 3
 
 - Lean Startup Update!! 2015「Lean Analytics」（2015-01-16）
 
-### 2014
+## 2014
 
 - ソフトウェア品質シンポジウム「LEGO®を使ったスクラムシミュレーション」（2014-09-10）
 - 翔泳社 Developer’s Summit 2014「Team GeekによるFearless Change」（2014-02-14）
@@ -42,7 +42,7 @@ order: 3
 - Scrum Gathering Tokyo 2014「アジャイルな組織変革「小成功」ワークショップ」（2014-01-15）
 - Scrum Gathering Tokyo 2014「アジャイルアカデミー課外授業―XP、スクラム、そしてリーンについての究極の疑問の答え」（2014-01-15）
 
-### 2013
+## 2013
 
 - 第41回 すくすくスクラム「Team Geek Into Darkness」（2013-10-10）
 - アジャイルソフトウェア開発セミナー2013 in 札幌「いま、できるアジャイル」（2013-08-08）
@@ -50,27 +50,27 @@ order: 3
 - POStudy「Fearless Journey」（2013-04-07）
 - Scrum Gathering Tokyo 2013「The New New Product Development with Lean Canvas」（2013-01-16）
 
-### 2012
+## 2012
 - DevLove 2012「Running Lean、発売されるってよ」（2012-12-16）
 - DevLove 主催「リーダブルコード − 忘れてもいいコードを書こう。」（2012-07-06）
 
-### 2011
+## 2011
 - Scrum Gathering Tokyo 2011「ユーザーストーリーファーストジェネレーション」（2011-10-22）
 - LL Planets「メタプログラミングの光と影」（2011-08-20）
 - アジャイルチームビルディングカンファレンス「Agile Infrastructure」（2011-01-16）
 
-### 2010
+## 2010
 - 第11回すくすくスクラム「ユーザーストーリービギンズナイト」（2010-02-25）
 
 <iframe width="480" height="360" src="https://www.youtube.com/embed/Yq6c92wppsQ" frameborder="0" allowfullscreen></iframe>
 
-### 2009
+## 2009
 - とちぎRuby会議02「儲かるRuby」（2009-10-24）
 - WikiばなVol.7「Wikiパターン」（2009-08-08）
 
-## 講義
+# 講義
 
-### 2017年度
+## 2017年度
 
 - [産業技術大学院大学 アジャイル開発概論](https://www.fisdom.org/F00000033/)（e-learning）
 - 東京工業大学 エンジニアリングデザインプロジェクトC
@@ -78,23 +78,23 @@ order: 3
 - 東京工業大学 エンジニアリングデザインプロジェクトA
 - 東京工業大学 デザイン思考基礎
 
-### 2016年度
+## 2016年度
 
 - 東京工業大学 エンジニアリングデザインプロジェクトC
 - 東京工業大学 エンジニアリングデザインプロジェクトB
 - 東京工業大学 エンジニアリングデザインプロジェクトA
 - 東京工業大学 デザイン思考基礎
 
-### 2015年度
+## 2015年度
 
 - 東京工業大学 エンジニアリングデザインプロジェクトC
 - 東京工業大学 エンジニアリングデザインプロジェクトB
 - 東京工業大学 エンジニアリングデザインプロジェクトA
 - 東京工業大学 デザイン思考基礎
 
-## 企画・運営
+# 企画・運営
 
-### 2017
+## 2017
 
 - [Hack U 東京工業大学 2017](https://hacku.yahoo.co.jp/titech2017/)（2017-07）
 - [リーンエンタープライズワークショップ](https://waicrew.doorkeeper.jp/events/56440)（2017-05-12）
@@ -105,7 +105,7 @@ order: 3
 - [レイチェルと学ぶアジャイルコーチングのスキル](https://waicrew.doorkeeper.jp/events/54120)（2017-01-10）
   - ゲスト：Rachel Davies
 
-### 2016
+## 2016
 
 - CoderDojoすぎなみ（2016〜）
 - 大企業で実現するリーンスタートアップ（2016-10-27）
@@ -130,16 +130,16 @@ order: 3
 - [TdX講演会#01「チームと開発者Kaigiづくり」](https://cbec-titech.connpass.com/event/28644/)（2016-04-22）
   - ゲスト：高橋征義、日高正博
 
-### 2015
+## 2015
 - アジャイルコーチへの道（2015-12-17）
   - ゲスト：Paolo "Nusco" Perrotta
 - メタプログラミングRubyトレーニング（2015-12-15）
   - ゲスト：Paolo "Nusco" Perrotta
 
-### 2011
+## 2011
 - [アジャイル・チームビルディング・カンファレンス](http://kokucheese.com/event/index/6842/)（2011-01-16）
   - ゲスト：Esther Derby、Johanna Rothman
 
-### 2010
+## 2010
 - [平成仮面ライダー勉強会](https://sites.google.com/site/kamenriderbenkyoukai/)（2010-02-22）
   - ゲスト：宇野常寛
