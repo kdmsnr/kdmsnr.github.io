@@ -60,7 +60,7 @@ order: 2
 
 # ウェブ（執筆）
 
-- [デザイン思考の教育分野における活用事例：東京工業大学がエンジニアリングとデザインで「曖昧さと踊る」!?](https://edtechzine.jp/article/detail/741)
+- [デザイン思考の教育分野における活用事例：東京工業大学がエンジニアリングとデザインで「曖昧さと踊る」!?](https://edtechzine.jp/article/detail/741)（2018/03/01）
 - [Rubyist Hotlinks 【第 36 回】 須藤功平さん](http://magazine.rubyist.net/?0053-Hotlinks)（2016-04）
 - [「アジャイルサムライの見積りと計画づくり」はどうやってうまれたのか？](https://codezine.jp/article/detail/7462)（2013-10-25）
 
