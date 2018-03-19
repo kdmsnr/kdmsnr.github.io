@@ -20,13 +20,13 @@
 {% if page.title %}
   <meta property="og:type" content="article" />
   <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:description" content="{{ page.content | markdownify | strip_html | strip_newlines | truncate: 50}}" />
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
   {% if page.date %}
   <meta property="article:published_time" content="{{page.date | date_to_xmlschema}}" />
   {% endif %}
-{% else %}
+  {% else %}
   <meta property="og:type" content="website" />
-  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:description" content="{{ site.description | markdownify }}" />
 {% endif %}
 
   <!-- analytics  -->
