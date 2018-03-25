@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 執筆
+title: 執筆等
 description: ""
 order: 2
 ---
@@ -60,6 +60,7 @@ order: 2
 
 # ウェブ（執筆）
 
+- [羽生章洋『はじめよう！システム設計』刊行記念特別インタビュー～角征典から見た2018年の上流工程とカスタマーエクスペリエンスの時代](http://gihyo.jp/news/interview/01/getting-started)（2018/03）
 - [デザイン思考の教育分野における活用事例：東京工業大学がエンジニアリングとデザインで「曖昧さと踊る」!?](https://edtechzine.jp/article/detail/741)（2018/03/01）
 - [Rubyist Hotlinks 【第 36 回】 須藤功平さん](http://magazine.rubyist.net/?0053-Hotlinks)（2016-04）
 - [「アジャイルサムライの見積りと計画づくり」はどうやってうまれたのか？](https://codezine.jp/article/detail/7462)（2013-10-25）
@@ -78,3 +79,7 @@ order: 2
 
 - 角征典、金本真左也、Antoine Bossard、秋口忠三「共同プログラミングを実現する初心者向けビジュアルプログラミングツール Jointry の開発と評価」一般社団法人情報処理学会 研究報告コンピュータと教育（2014）
 
+# 賞
+
+- [第22回（2017年度）工学教育賞](https://www.jsee.or.jp/about/award/jsee-prize)（2018/03）
+- [翔泳社 デブサミ2014 アワード ベストバリュー賞](https://event.shoeisha.jp/devsumi/20140213/award)（2014/02）
