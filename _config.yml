@@ -13,7 +13,7 @@ markdown: redcarpet
 redcarpet:
   extensions: [autolink,strikethrough,footnotes,tables]
 
-gems:
+plugins:
   - jekyll-sitemap
   - jemoji
 
