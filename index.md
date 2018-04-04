@@ -10,7 +10,7 @@ title: kdmsnr.com
 # 所属
 
 * <a href="http://www.waicrew.com">ワイクル株式会社</a>（代表取締役）
-* 東京工業大学 環境・社会理工学院 融合理工学系（<a href="http://t2r2.star.titech.ac.jp/cgi-bin/researcherinfo.cgi?q_researcher_content_number=CTT100692413">特任講師</a>）
+* 東京工業大学 環境・社会理工学院（<a href="http://t2r2.star.titech.ac.jp/cgi-bin/researcherinfo.cgi?q_researcher_content_number=CTT100692413">特任講師</a>）
 
 # 職歴
 
