@@ -21,21 +21,6 @@ title: kdmsnr.com
 * 2003年11月-2005年10月｜日揮情報ソフトウェア（エンジニア）
 * 2001年4月-2003年10月｜株式会社内田洋行（エンジニア）
 
-{% comment %}
-
-# Blog
-
-<ul>
-  {% for post in site.posts limit:5 %}
-    <li>
-      <span class="post-meta">{{ post.date | date: "%Y-%m-%d"}}</span>
-      <a href="{{ post.url | replace: 'index.html', ''}}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-
-{% endcomment %}
-
 # 執筆（書籍）
 
 ## 2018
@@ -105,6 +90,40 @@ title: kdmsnr.com
 - [「LEGOブロックで街づくり」 実体験型スクラム入門をのぞいてみた](http://www.atmarkit.co.jp/ait/articles/1305/28/news059.html)（2013-05-28）
 - [森下・アジャイル研究所 第5回 アジャイルな要求定義に求められるもの](http://itpro.nikkeibp.co.jp/article/COLUMN/20100309/345488/)（2010-03-10）
 - [「マインドマップ」でモヤモヤ解消](http://www.nikkeibp.co.jp/article/nba/20080329/151626/)（2008-04-01）
+
+# 翻訳
+
+<ul>
+{% for page in site.pages %}
+  {% if page.dir contains 'translations'%}
+  {% if page.dir != '/translations/' and page.dir != '/translations/readings/' %}
+<li><a href="{{ page.dir }}">{{ page.title }}</a></li>
+  {% endif %}
+  {% endif %}
+{% endfor %}
+</ul>
+
+## 外部サイト
+
+* [スクラムガイド](http://www.scrumguides.org/download.html)
+* [Nexusガイド](https://www.scrum.org/Resources/The-Nexus-Guide/Downloads)
+* [LEGOを使ったスクラムシミュレーション（レゴスクラム）](http://www.lego4scrum.com/translations/)
+* [eduScrumガイド](http://eduscrum.nl/en/links)
+* [Martin Fowler's Bliki](http://bliki-ja.github.io/)
+
+※ [翻訳査読](/translations/readings)
+
+# ブログ
+
+<ul>
+  {% for post in site.posts limit:100 %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%Y-%m-%d"}}</span>
+      <a href="{{ post.url | replace: 'index.html', ''}}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
 
 # 論文
 
