@@ -82,7 +82,7 @@ title: kdmsnr.com
 
 # 記事掲載
 
-- [スタートアップに「方法論」は必要か？ 大企業にも浸透を始める「リーンスタートアップ」最新トレンドを追う | HRナビ by リクルート](http://hrnabi.com/2018/03/29/16900/)（2018-03-29）
+- [スタートアップに「方法論」は必要か？ 大企業にも浸透を始める「リーンスタートアップ」最新トレンドを追う : HRナビ by リクルート](http://hrnabi.com/2018/03/29/16900/)（2018-03-29）
 - [天才でなくていい！『Team Geek』訳者・角 征典と考える、チームに貢献するエンジニアの気配り力 - エンジニアHub｜若手Webエンジニアのキャリアを考える！](https://employment.en-japan.com/engineerhub/entry/2017/12/20/110000)（2017-12-20）
 - [「教わるのではなく学び取る」、子供向けプログラミング道場「CoderDojo」が全国で急増中](http://itpro.nikkeibp.co.jp/atcl/interview/14/262522/102600287/)（2016-10-28）
 - [受賞作品発表！「ITエンジニアに読んでほしい！ 技術書・ビジネス書大賞 2015」](https://codezine.jp/article/detail/8612)（2015-04-14）
@@ -110,8 +110,6 @@ title: kdmsnr.com
 * [LEGOを使ったスクラムシミュレーション（レゴスクラム）](http://www.lego4scrum.com/translations/)
 * [eduScrumガイド](http://eduscrum.nl/en/links)
 * [Martin Fowler's Bliki](http://bliki-ja.github.io/)
-
-※ [翻訳査読](/translations/readings)
 
 # ブログ
 

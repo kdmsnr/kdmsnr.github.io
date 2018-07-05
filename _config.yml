@@ -8,20 +8,16 @@ twitter_username: kdmsnr
 github_username:  kdmsnr
 timezone: Asia/Tokyo
 
-# Build settings
-markdown: redcarpet
-redcarpet:
-  extensions: [autolink,strikethrough,footnotes,tables]
+markdown: kramdown
+kramdown:
+  input: GFM
 
-plugins:
-  - jekyll-sitemap
+gems:
   - jemoji
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
-# Amazon plugin
-amazon_access_key_id: 'your access key id'
-amazon_secret_key:    'your secret key'
-amazon_associate_tag: '99-22'
-amazon_cache:         true
-amazon_cache_dir:     '.amazon-cache'      # default '.amazon-cache'
-amazon_country:       'jp'                 # default 'en'
-amazon_locale:        'ja'                 # default 'en'
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "vendor"]
