@@ -3,6 +3,7 @@ layout: page
 title: 翻訳
 description: ""
 order: 4
+group: navigation
 ---
 
 書籍の翻訳については、[Amazonの著者ページ](http://www.amazon.co.jp/-/e/B00429JIAI)を参照してください。
@@ -24,7 +25,3 @@ order: 4
 * [LEGOを使ったスクラムシミュレーション（レゴスクラム）](http://www.lego4scrum.com/translations/)
 * [eduScrumガイド](http://eduscrum.nl/en/links)
 * [Martin Fowler's Bliki](http://bliki-ja.github.io/)
-
-# これから翻訳したいなあと思うもの
-
-* [翻訳査読](readings)

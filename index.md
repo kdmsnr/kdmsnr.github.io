@@ -21,6 +21,37 @@ title: kdmsnr.com
 * 2003年11月-2005年10月｜日揮情報ソフトウェア（エンジニア）
 * 2001年4月-2003年10月｜株式会社内田洋行（エンジニア）
 
+{% comment %}
+# WORKS
+
+<span class="label label-default">Default</span>
+<span class="label label-primary">執筆</span>
+<span class="label label-success">記事掲載</span>
+<span class="label label-info">Info</span>
+<span class="label label-warning">賞</span>
+<span class="label label-danger">講演</span>
+
+{% assign hyear = 0 %}
+{% assign works = site.data.works | sort:'year' | sort:'month' | sort:'date' | reverse %}
+{% for w in works %}
+{%if hyear != w.year%}{%assign hyear = w.year%}<h2>{{hyear}}</h2>{%endif%}
+{% assign d = w.year | append: "/" | append: w.month | append: "/" | append: w.date %}
+{% case w.type %}
+{% when 'translation' %}
+<span class="label label-primary">翻訳</span>
+『{{ w.title }}』{{w.publisher}}
+{% when 'web' %}
+<span class="label label-success">ウェブ</span>
+<a href="{{ w.url }}">{{ w.title }}</a>
+{% when 'magagine' %}
+<span class="label label-info">雑誌</span>
+{{ w.title }}
+
+{% endcase %}（{{ d | date: "%Y-%m-%d"}}）
+{% endfor %}
+
+{% endcomment %}
+
 # 執筆（書籍）
 
 ## 2018
@@ -31,31 +62,31 @@ title: kdmsnr.com
 ## 2017
 - 共著『エンジニアのためのデザイン思考入門』翔泳社（2017-12-15）
 - 翻訳『図解リーンスタートアップ成長戦略』日経BP社（2017-10-13）
-- 共訳『アジャイルコーチング』オーム社（2017-01-17）
+- 共訳『アジャイルコーチング』オーム社（2017-01-17）2刷
 
 ## 2016
 - 監訳『リーンエンタープライズ―イノベーションを実現する創発的な組織づくり』オライリー・ジャパン（2016-10-15）
-- 共訳『カンバン仕事術―チームではじめる見える化と改善』オライリー・ジャパン（2016-03-26）
+- 共訳『カンバン仕事術―チームではじめる見える化と改善』オライリー・ジャパン（2016-03-26）3刷
 
 ## 2015
 - 翻訳『メタプログラミングRuby 第2版』オライリー・ジャパン（2015-10-10）
-- 翻訳『エクストリームプログラミング』オーム社（2015-06-26）
-- 翻訳『Lean Analytics―スタートアップのためのデータ解析と活用法』オライリー・ジャパン（2015-01-24）
+- 翻訳『エクストリームプログラミング』オーム社（2015-06-26）2刷
+- 翻訳『Lean Analytics―スタートアップのためのデータ解析と活用法』オライリー・ジャパン（2015-01-24）3刷
 
 ## 2014
 - 共訳『エッセンシャル スクラム：アジャイル開発に関わるすべての人のための完全攻略ガイド』翔泳社（2014-07-08）
 - 共訳『Fearless Change―アジャイルに効く アイデアを組織に広めるための48のパターン』丸善出版（2014-01-30）
 
 ## 2013
-- 翻訳『Team Geek―Googleのギークたちはいかにしてチームを作るのか』オライリー・ジャパン（2013-07-20）
+- 翻訳『Team Geek―Googleのギークたちはいかにしてチームを作るのか』オライリー・ジャパン（2013-07-20）9刷
 - 共訳『プログラマの考え方がおもしろいほど身につく本―問題解決能力を鍛えよう! 』アスキー・メディアワークス（2013-05-01）
 - 共訳『Software in 30 Days―スクラムによるアジャイルな組織変革"成功"ガイド』アスキー・メディアワークス（2013-03-08）
 - 翻訳『7つのデータベース 7つの世界』オーム社（2013-02-26）
 
 ## 2012
-- 翻訳『Running Lean―実践リーンスタートアップ』オライリー・ジャパン（2012-12-21）
+- 翻訳『Running Lean―実践リーンスタートアップ』オライリー・ジャパン（2012-12-21）6刷
 - 共訳『サービスデザインパターン―SOAP/WSDLとRESTful Webサービスの基本的な設計ソリューション』アスキー・メディアワークス（2012-08-24）
-- 翻訳『リーダブルコード―より良いコードを書くためのシンプルで実践的なテクニック』オライリー・ジャパン（2012-06-23）
+- 翻訳『リーダブルコード―より良いコードを書くためのシンプルで実践的なテクニック』オライリー・ジャパン（2012-06-23）20刷
 - 翻訳『Clean Coder―プロフェッショナルプログラマへの道』アスキー・メディアワークス（2012-01-27）
 
 ## 2011
@@ -66,7 +97,7 @@ title: kdmsnr.com
 - 翻訳『メタプログラミングRuby』アスキー・メディアワークス（2010-08-28）
 
 ## 2007
-- 翻訳『アジャイルレトロスペクティブズ―強いチームを育てる「ふりかえり」の手引き』オーム社（2007-09）
+- 翻訳『アジャイルレトロスペクティブズ―強いチームを育てる「ふりかえり」の手引き』オーム社（2007-09）7刷
 
 # 執筆（雑誌）
 
@@ -154,15 +185,15 @@ title: kdmsnr.com
 
 ## 2015
 
-- 香川大学工学部 特別講義「XPペア計画ゲーム」（2015-11-06）香川大学
-- 情報処理学会四国支部 特別講義「アジャイル開発の勧め」（2015-11-06）香川大学
-- 東京工業大学 IT特別教育研究コース 夏合宿 特別講演「Team Geekに学ぶチーム開発の心得」（2015-09-30）
-- XP祭り2015 基調講演「XP lives, XP dies, XP lives again !!」（2015-09-12）
-- 「XPは何を伝えたかったんだと思う？」（2015-06-26）
+* 香川大学工学部 特別講義「XPペア計画ゲーム」（2015-11-06）香川大学
+* 情報処理学会四国支部 特別講義「アジャイル開発の勧め」（2015-11-06）香川大学
+* 東京工業大学 IT特別教育研究コース 夏合宿 特別講演「Team Geekに学ぶチーム開発の心得」（2015-09-30）まほろばマインズ
+* XP祭り2015 基調講演「XP lives, XP dies, XP lives again !!」（2015-09-12）早稲田大学西早稲田キャンパス
+* 『エクストリームプログラミング』（オーム社）刊行記念「XPは何を伝えたかったんだと思う？」（2015-06-26）ジュンク堂池袋本店
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YRFWWS_2Epo" frameborder="0" allowfullscreen></iframe>
 
-- Lean Startup Update!! 2015「Lean Analytics」（2015-01-16）
+* Lean Startup Update!! 2015「Lean Analytics」（2015-01-16）日本マイクロソフト株式会社
 
 ## 2014
 
@@ -282,12 +313,3 @@ title: kdmsnr.com
 ## 2010
 - [平成仮面ライダー勉強会](https://sites.google.com/site/kamenriderbenkyoukai/)（2010-02-22）
   - ゲスト：宇野常寛
-
-
-# その他のサイト
-
-* [bliki-ja](http://bliki-ja.github.io/) ｜ Martin Fowler's Bliki の翻訳
-* [PofEAA](http://bliki-ja.github.io/pofeaa/)
-* [Re:VIEW](https://github.com/kmuto/review) ｜コミッターとして開発に参加しているRuby製の出版システム
-* [東京工業大学エンジニアリングデザインプロジェクト – Medium](https://medium.com/titech-eng-and-design)
-* [いろいろ翻訳したもの](/translations/)

@@ -2,6 +2,7 @@
 layout: page
 title: ブログ
 order: 1
+group: navigation
 ---
 
 <ul>

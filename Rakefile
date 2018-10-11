@@ -8,7 +8,7 @@ require 'jekyll'
 
 desc "server"
 task :s do
-  sh "bundle exec jekyll s -w -V"
+  sh "bundle exec jekyll s --incremental"
 end
 
 desc "post"
@@ -77,4 +77,11 @@ task :publish => [:generate] do
     sh "ln -s ~/Dropbox/src/amazon_tag.rb _plugins/"
     sh "echo yolo"
   end
+end
+
+require 'html-proofer'
+task :proof do
+  sh "bundle exec jekyll build"
+  options = { :assume_extension => true , :empty_alt_ignore => true }
+  HTMLProofer.check_directory("./_site", options).run
 end
