@@ -188,7 +188,7 @@ Railsの次期バージョンに向けて、[SwitchTower](http://manuals.rubyonr
 ------------------------------------------------------------------------
 
 編集者注：このインタビューの[韓国語版](http://wiki.rubykr.org/show/KoreanDoc_RubyOnRails_AnInterviewWithDavidHeinemeierHansson)
-と[日本語版](http://capsctrl.que.jp/kdmsnr/wiki/transl/?AnInterviewWithDHH)があります。
+と日本語版があります。
 
 [Edd Dumbill](http://www.oreillynet.com/pub/au/96)は[O'Reilly
 Network](http://www.oreillynet.com/)の編集者で、『[Mono: A Developer's
