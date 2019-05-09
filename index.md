@@ -3,8 +3,6 @@ layout: page
 title: kdmsnr.com
 ---
 
-# プロフィール
-
 {% include profile.html %}
 
 # 所属
@@ -24,22 +22,25 @@ title: kdmsnr.com
 {% comment %}
 # WORKS
 
-<span class="label label-default">Default</span>
-<span class="label label-primary">執筆</span>
-<span class="label label-success">記事掲載</span>
-<span class="label label-info">Info</span>
-<span class="label label-warning">賞</span>
+<!-- <span class="label label-default">Default</span> -->
+<span class="label label-primary">書籍</span>
+<span class="label label-info">雑誌</span>
+<span class="label label-success">ウェブ</span>
 <span class="label label-danger">講演</span>
+<span class="label label-warning"></span>
+
 
 {% assign hyear = 0 %}
-{% assign works = site.data.works | sort:'year' | sort:'month' | sort:'date' | reverse %}
+{% assign works = site.data.works | sort:'published' %}
+
 {% for w in works %}
-{%if hyear != w.year%}{%assign hyear = w.year%}<h2>{{hyear}}</h2>{%endif%}
+{% if hyear != w.year%}{%assign hyear = w.year %}<h2>{{hyear}}</h2>{%endif%}
 {% assign d = w.year | append: "/" | append: w.month | append: "/" | append: w.date %}
 {% case w.type %}
-{% when 'translation' %}
-<span class="label label-primary">翻訳</span>
-『{{ w.title }}』{{w.publisher}}
+
+{% when 'book' %}
+<span class="label label-primary">書籍</span>
+{{ w.authorship }}『{{ w.title }}』{{w.publisher}}
 {% when 'web' %}
 <span class="label label-success">ウェブ</span>
 <a href="{{ w.url }}">{{ w.title }}</a>
@@ -158,7 +159,7 @@ title: kdmsnr.com
 
 # 論文
 
-- 角征典、金本真左也、Antoine Bossard、秋口忠三「共同プログラミングを実現する初心者向けビジュアルプログラミングツール Jointry の開発と評価」一般社団法人情報処理学会 研究報告コンピュータと教育（2014）
+- （研究会発表）角征典、金本真左也、Antoine Bossard、秋口忠三「共同プログラミングを実現する初心者向けビジュアルプログラミングツール Jointry の開発と評価」一般社団法人情報処理学会 研究報告コンピュータと教育（2014）
 
 # 賞
 
@@ -169,69 +170,18 @@ title: kdmsnr.com
 
 # 講演
 
-過去に使用したスライドは、[SlideShare](http://www.slideshare.net/kdmsnr/)や[SpeakerDeck](https://speakerdeck.com/kdmsnr)にアップしています。
+[会社のサイトに掲載](https://waicrew.com/training/)しています。なお、過去に使用したスライドは、[SlideShare](http://www.slideshare.net/kdmsnr/)や[SpeakerDeck](https://speakerdeck.com/kdmsnr)にアップしています。
 
-
-## 2017
-
-- [Lean Startup Update! 2018 〜3年間のリーンスタートアップのアップデート会〜](https://leanstartup.connpass.com/event/72252/)（2017-12-13）
-- [エンタープライズアジャイル勉強会2017年7月セミナー](https://easg.smartcore.jp/C22/notice_details/QkdKU1pnPT0=)（2017-07-19）
-
-## 2016
-
-- [Kanban Casual Talks](https://orajp.connpass.com/event/30707/)（2016-05-19）
-- 大田区産業振興協会イノベーション創出セミナー（2016-03-25）
-- 産業技術大学院大学2015年度enPiTプログラム成果発表会「アジャイル開発とその拡散」（2016-02-27）
-- Scrum Gathering Tokyo 2016「レゴスクラムの覚醒」（2016-01-19）
-
-## 2015
-
-* 香川大学工学部 特別講義「XPペア計画ゲーム」（2015-11-06）香川大学
-* 情報処理学会四国支部 特別講義「アジャイル開発の勧め」（2015-11-06）香川大学
-* 東京工業大学 IT特別教育研究コース 夏合宿 特別講演「Team Geekに学ぶチーム開発の心得」（2015-09-30）まほろばマインズ
-* XP祭り2015 基調講演「XP lives, XP dies, XP lives again !!」（2015-09-12）早稲田大学西早稲田キャンパス
-* 『エクストリームプログラミング』（オーム社）刊行記念「XPは何を伝えたかったんだと思う？」（2015-06-26）ジュンク堂池袋本店
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YRFWWS_2Epo" frameborder="0" allowfullscreen></iframe>
-
-* Lean Startup Update!! 2015「Lean Analytics」（2015-01-16）日本マイクロソフト株式会社
-
-## 2014
-
-- ソフトウェア品質シンポジウム「LEGO®を使ったスクラムシミュレーション」（2014-09-10）
-- 翔泳社 Developer’s Summit 2014「Team GeekによるFearless Change」（2014-02-14）
-- 翔泳社 Developer’s Summit 2014「リーダブルコードのつくりかたのストーリー」（2014-02-13）
-- リーンカンファレンス2014「セールスバッファマネージャー開発事例」（2014-01-28）
-- Scrum Gathering Tokyo 2014「アジャイルな組織変革「小成功」ワークショップ」（2014-01-15）
-- Scrum Gathering Tokyo 2014「アジャイルアカデミー課外授業―XP、スクラム、そしてリーンについての究極の疑問の答え」（2014-01-15）
-
-## 2013
-
-- 第41回 すくすくスクラム「Team Geek Into Darkness」（2013-10-10）
-- アジャイルソフトウェア開発セミナー2013 in 札幌「いま、できるアジャイル」（2013-08-08）
-- リーンスタートアップセミナー2013 in 札幌「10分でわかるリーンスタートアップ」（2013-07-09）
-- POStudy「Fearless Journey」（2013-04-07）
-- Scrum Gathering Tokyo 2013「The New New Product Development with Lean Canvas」（2013-01-16）
-
-## 2012
-- DevLove 2012「Running Lean、発売されるってよ」（2012-12-16）
-- DevLove 主催「リーダブルコード − 忘れてもいいコードを書こう。」（2012-07-06）
-
-## 2011
-- Scrum Gathering Tokyo 2011「ユーザーストーリーファーストジェネレーション」（2011-10-22）
-- LL Planets「メタプログラミングの光と影」（2011-08-20）
-- アジャイルチームビルディングカンファレンス「Agile Infrastructure」（2011-01-16）
-
-## 2010
-- 第11回すくすくスクラム「ユーザーストーリービギンズナイト」（2010-02-25）
-
-<iframe width="480" height="360" src="https://www.youtube.com/embed/Yq6c92wppsQ" frameborder="0" allowfullscreen></iframe>
-
-## 2009
-- とちぎRuby会議02「儲かるRuby」（2009-10-24）
-- WikiばなVol.7「Wikiパターン」（2009-08-08）
 
 # 講義
+
+## 2019年度
+
+- 東京工業大学 エンジニアリングデザインプロジェクトC
+- 東京工業大学 エンジニアリングデザインプロジェクトB
+- 東京工業大学 エンジニアリングデザインプロジェクトA
+- 東京工業大学 デザイン思考基礎
+
 
 ## 2018年度
 
@@ -264,6 +214,13 @@ title: kdmsnr.com
 - 東京工業大学 デザイン思考基礎
 
 # 企画・運営
+
+## 2018
+
+- エンジニアリングデザイン研究会（第3回）
+- エンジニアリングデザイン研究会（第2回）
+- エンジニアリングデザイン研究会（第1回）
+
 
 ## 2017
 
