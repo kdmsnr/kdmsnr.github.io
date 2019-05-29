@@ -5,6 +5,11 @@ title: kdmsnr.com
 
 {% include profile.html %}
 
+<a href="https://www.waicrew.com/form/"><img src="/images/email-white-navy-button/email white navy button.png" /></a>
+<a href="https://twitter.com/kdmsnr"><img src="/images/email-white-navy-button/twitter 3 white navy button.png" /></a>
+<a href="https://www.facebook.com/kdmsnr"><img src="/images/email-white-navy-button/Facebook white navy button.png" /></a>
+<a href="https://github.com/kdmsnr"><img src="/images/email-white-navy-button/GitHub-Mark.png" /></a>
+
 # 所属
 
 * <a href="http://www.waicrew.com">ワイクル株式会社</a>（代表取締役）
@@ -75,7 +80,7 @@ title: kdmsnr.com
 - 翻訳『Lean Analytics―スタートアップのためのデータ解析と活用法』オライリー・ジャパン（2015-01-24）3刷
 
 ## 2014
-- 共訳『エッセンシャル スクラム：アジャイル開発に関わるすべての人のための完全攻略ガイド』翔泳社（2014-07-08）
+- 共訳『エッセンシャル スクラム：アジャイル開発に関わるすべての人のための完全攻略ガイド』翔泳社（2014-07-08）2刷
 - 共訳『Fearless Change―アジャイルに効く アイデアを組織に広めるための48のパターン』丸善出版（2014-01-30）
 
 ## 2013
@@ -127,6 +132,8 @@ title: kdmsnr.com
 
 # 翻訳
 
+書籍の翻訳については、[Amazonの著者ページ](http://www.amazon.co.jp/-/e/B00429JIAI)を参照してください。
+
 <ul>
 {% for page in site.pages %}
   {% if page.dir contains 'translations'%}
@@ -143,9 +150,15 @@ title: kdmsnr.com
 * [Nexusガイド](https://www.scrum.org/Resources/The-Nexus-Guide/Downloads)
 * [LEGOを使ったスクラムシミュレーション（レゴスクラム）](http://www.lego4scrum.com/translations/)
 * [eduScrumガイド](http://eduscrum.nl/en/links)
-* [Martin Fowler's Bliki](http://bliki-ja.github.io/)
+* [Martin Fowler's Bliki-ja](http://bliki-ja.github.io/)
+* [PofEAA-ja](http://bliki-ja.github.io/pofeaa/)
 
 # ブログ
+
+* [角 征典 (@kdmsnr) – Medium](https://medium.com/@kdmsnr)
+* [東京工業大学エンジニアリングデザインプロジェクト – Medium](https://medium.com/titech-eng-and-design)
+
+## 本サイトに残っているブログ
 
 <ul>
   {% for post in site.posts limit:100 %}
@@ -155,7 +168,6 @@ title: kdmsnr.com
     </li>
   {% endfor %}
 </ul>
-
 
 # 論文
 
@@ -171,7 +183,6 @@ title: kdmsnr.com
 # 講演
 
 [会社のサイトに掲載](https://waicrew.com/training/)しています。なお、過去に使用したスライドは、[SlideShare](http://www.slideshare.net/kdmsnr/)や[SpeakerDeck](https://speakerdeck.com/kdmsnr)にアップしています。
-
 
 # 講義
 
