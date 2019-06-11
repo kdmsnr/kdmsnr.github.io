@@ -12,12 +12,16 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-plugins_dir:
+plugins:
+  - jekyll-sitemap
   - jemoji
   - jekyll-feed
-  - jekyll-sitemap
+
 exclude:
   - Gemfile
   - Gemfile.lock
-
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "vendor"]
+  - .rvmrc
+  - .rbenv-version
+  - README.md
+  - Rakefile
+  - vendor
