@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ブログ
+title: Blog
 order: 1
 group: navigation
 ---

@@ -5,11 +5,6 @@ title: kdmsnr.com
 
 {% include profile.html %}
 
-<a href="https://www.waicrew.com/form/"><img src="/images/email-white-navy-button/email white navy button.png" /></a>
-<a href="https://twitter.com/kdmsnr"><img src="/images/email-white-navy-button/twitter 3 white navy button.png" /></a>
-<a href="https://www.facebook.com/kdmsnr"><img src="/images/email-white-navy-button/Facebook white navy button.png" /></a>
-<a href="https://github.com/kdmsnr"><img src="/images/email-white-navy-button/GitHub-Mark.png" /></a>
-
 # 所属
 
 * <a href="http://www.waicrew.com">ワイクル株式会社</a>（代表取締役）
