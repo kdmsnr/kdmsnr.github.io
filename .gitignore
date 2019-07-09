@@ -2,3 +2,4 @@ _site
 _plugins/amazon_tag.rb
 .sass-cache/
 .jekyll-metadata
+Gemfile.lock
