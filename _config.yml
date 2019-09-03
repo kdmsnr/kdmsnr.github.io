@@ -25,3 +25,10 @@ exclude:
   - README.md
   - Rakefile
   - vendor
+
+defaults:
+  -
+    scope:
+      path:            "/files/*"
+    values:
+      sitemap:         false
