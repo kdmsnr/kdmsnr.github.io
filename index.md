@@ -5,7 +5,6 @@ title: kdmsnr.com
 
 {% include profile.html %}
 
-
 # 所属
 
 * <a href="http://www.waicrew.com">ワイクル株式会社</a>（代表取締役）
