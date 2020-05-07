@@ -9,6 +9,7 @@ title: kdmsnr.com
 
 * <a href="http://www.waicrew.com">ワイクル株式会社</a>（代表取締役）
 * 東京工業大学 環境・社会理工学院（<a href="http://t2r2.star.titech.ac.jp/cgi-bin/researcherinfo.cgi?q_researcher_content_number=CTT100692413">特任講師</a>）
+* 東京工業大学 環境・社会理工学院  イノベーション科学系 イノベーション科学コース（博士後期課程）
 
 # 職歴
 
@@ -134,15 +135,13 @@ title: kdmsnr.com
 
 # 翻訳
 
-書籍の翻訳については、[Amazonの著者ページ](http://www.amazon.co.jp/-/e/B00429JIAI)を参照してください。
-
 <ul>
 {% for page in site.pages %}
-  {% if page.dir contains 'translations'%}
+{% if page.dir contains 'translations'%}
   {% if page.dir != '/translations/' and page.dir != '/translations/readings/' %}
-<li><a href="{{ page.dir }}">{{ page.title }}</a></li>
+  <li><a href="{{ page.dir }}">{{ page.title }}</a></li>
   {% endif %}
-  {% endif %}
+{% endif %}
 {% endfor %}
 </ul>
 
@@ -154,6 +153,10 @@ title: kdmsnr.com
 * [eduScrumガイド](http://eduscrum.nl/en/links)
 * [Martin Fowler's Bliki-ja](http://bliki-ja.github.io/)
 * [PofEAA-ja](http://bliki-ja.github.io/pofeaa/)
+* [Medium](https://medium.com/@kdmsnr)にいろいろと置いてあります
+* [SlideShare](http://www.slideshare.net/kdmsnr/)にも置いています
+
+書籍の翻訳については、[Amazonの著者ページ](http://www.amazon.co.jp/-/e/B00429JIAI)を参照してください。
 
 # ブログ
 
