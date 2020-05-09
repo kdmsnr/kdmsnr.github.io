@@ -89,3 +89,8 @@ task :proof do
             }
   HTMLProofer.check_directory("./_site", options).run
 end
+
+desc 'Copy prev-training from company site'
+task :copy_prev_training do
+  sh "cp ~/www/waicrew.com/_includes/prev-training.md ~/www/kdmsnr.github.io/_includes/"
+end

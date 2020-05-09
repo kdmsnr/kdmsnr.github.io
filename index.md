@@ -9,7 +9,7 @@ title: kdmsnr.com
 
 * <a href="http://www.waicrew.com">ワイクル株式会社</a>（代表取締役）
 * 東京工業大学 環境・社会理工学院（<a href="http://t2r2.star.titech.ac.jp/cgi-bin/researcherinfo.cgi?q_researcher_content_number=CTT100692413">特任講師</a>）
-* 東京工業大学 環境・社会理工学院  イノベーション科学系 イノベーション科学コース（博士後期課程）
+* 東京工業大学 環境・社会理工学院  イノベーション科学系 イノベーション科学コース（博士後期課程）齊藤滋規研
 
 # 職歴
 
@@ -154,7 +154,13 @@ title: kdmsnr.com
 * [Martin Fowler's Bliki-ja](http://bliki-ja.github.io/)
 * [PofEAA-ja](http://bliki-ja.github.io/pofeaa/)
 * [Medium](https://medium.com/@kdmsnr)にいろいろと置いてあります
-* [SlideShare](http://www.slideshare.net/kdmsnr/)にも置いています
+* [Leanpub](https://leanpub.com/u/kdmsnr)にもあります
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/u591JexyK3mOXr" width="340" height="290" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/4OrcsQETY2gHZq" width="340" height="290" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/sF7k64vX83Xq0c" width="340" height="290" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
 書籍の翻訳については、[Amazonの著者ページ](http://www.amazon.co.jp/-/e/B00429JIAI)を参照してください。
 
@@ -185,11 +191,20 @@ title: kdmsnr.com
 - [翔泳社 デブサミ2014 アワード ベストバリュー賞](https://event.shoeisha.jp/devsumi/20140213/award)（2014/02）
 - 2014年「ITエンジニアに読んでほしい！技術書・ビジネス書 大賞」技術書部門大賞『リーダブルコード』（2014/02）
 
-# 講演
+# 講演（一般向け）
 
-[会社のサイトに掲載](https://waicrew.com/training/)しています。なお、過去に使用したスライドは、[SlideShare](http://www.slideshare.net/kdmsnr/)や[SpeakerDeck](https://speakerdeck.com/kdmsnr)にアップしています。
+{% include prev-training.md %}
 
-# 講義
+過去に使用したスライドは、[SlideShare](http://www.slideshare.net/kdmsnr/)や[SpeakerDeck](https://speakerdeck.com/kdmsnr)にアップしています。
+
+# 講義（大学）
+
+## 2020年度
+
+- 東京工業大学 エンジニアリングデザインプロジェクト
+- 東京工業大学 エンジニアリングデザイン応用
+- 東京工業大学 デザイン思考基礎
+- [東京大学 FoundX Online Startup School](https://school.foundx.jp/)
 
 ## 2019年度
 
@@ -235,7 +250,6 @@ title: kdmsnr.com
 - エンジニアリングデザイン研究会（第3回）
 - エンジニアリングデザイン研究会（第2回）
 - エンジニアリングデザイン研究会（第1回）
-
 
 ## 2017
 
