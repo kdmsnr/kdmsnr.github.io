@@ -1,10 +1,16 @@
+:root{
+    --font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
 html {
     font-size: 100%;
 }
 
 body {
-  line-height: 1.6;
+  line-height: 1.75;
   background-color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, 'Open Sans', sans-serif;
   /* navbar */
   /* padding-top: 40px; */
 }
@@ -33,7 +39,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
   cursor: text;
-  position: relative; }
+  position: relative; 
+  font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, 'Open Sans', sans-serif;
+
+}
 
 /* h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
  *   background: url("/images/para.png") no-repeat 10px center;
@@ -62,16 +71,16 @@ h1 {
   color: black; }
 
 .page-content h1 {
-  padding: 0.25em;
-  color: #010101;/*文字色*/
+  padding: 0.35em;
+  color: #333;/*文字色*/
   background: #eee;/*背景色*/
-  border-bottom: solid 3px #888;/*下線*/
+  border-bottom: solid 2px #ccc;/*下線*/
   /*border-radius: 8px;*/
 }
 
 h2 {
   font-size: 24px;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #ccc;
   color: black; }
 
 h3 {
