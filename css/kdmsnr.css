@@ -66,11 +66,11 @@ h5 tt, h5 code {
 h6 tt, h6 code {
   font-size: inherit; }
 
-h1 {
-  font-size: 28px;
+h2 {
+  font-size: 26px;
   color: black; }
 
-.page-content h1 {
+.page-content h2 {
   padding: 0.35em;
   color: #333;/*文字色*/
   background: #eee;/*背景色*/
@@ -78,12 +78,12 @@ h1 {
   /*border-radius: 8px;*/
 }
 
-h2 {
+h3 {
   font-size: 24px;
   border-bottom: 1px solid #ccc;
   color: black; }
 
-h3 {
+h4 {
   font-size: 20px;
   font-weight: bold;
   color: black;}
