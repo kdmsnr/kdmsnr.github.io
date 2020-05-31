@@ -6,7 +6,8 @@ group: navigation
 ---
 
 <ul>
-  {% for post in site.posts %}
+  {% assign posts = site.posts | sort:'date' | reverse %}
+  {% for post in posts %}
     <li>
       <span class="post-meta">{{ post.date | date: "%Y-%m-%d"}}</span>
       <a href="{{ post.url | replace: 'index.html', ''}}">{{ post.title }}</a>

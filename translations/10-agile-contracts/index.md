@@ -35,14 +35,10 @@ title: 次のアジャイルソフトウェアプロジェクトに使える10�
 * What model of customer relationship does it foster: competitive (my win is your loss), cooperative (win-win), indifferent (I don’t care-you lose) or dependent (heads-I-win-tails-you lose)?
 -->
 
-構造
-: 契約の構造
-スコープの変更
-: スコープ（要件）の変更方法
-リスク
-: 顧客とサプライヤ間でのリスクや報酬の配分方法
-関係
-: 奨励する顧客関係：競合関係（win-lose）、協力関係（win-win）、無関心（お互いのloseは気にしない）、従属関係（俺の物は俺の物、お前の物も俺の物）
+* 構造：契約の構造
+* スコープの変更：スコープ（要件）の変更方法
+* リスク：顧客とサプライヤ間でのリスクや報酬の配分方法
+* 関係：奨励する顧客関係：競合関係（win-lose）、協力関係（win-win）、無関心（お互いのloseは気にしない）、従属関係（俺の物は俺の物、お前の物も俺の物）
 
 <!-- This week, let’s look at a number of possible contracts, and see how they work with agile and Scrum development projects:-->
 
@@ -74,7 +70,7 @@ title: 次のアジャイルソフトウェアプロジェクトに使える10�
 
 <!-- Sprint Contract -->
 
-##「スプリント契約」
+## 「スプリント契約」
 
 ![Alt Text](SprintContract_0.png)
 
