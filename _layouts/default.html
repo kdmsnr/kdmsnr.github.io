@@ -4,20 +4,7 @@
     {% include head.html %}
   </head>
   <body>
-
-    <nav class="navbar navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="/">kdmsnr.com</a>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.waicrew.com/form/">
-              お問い合わせは会社のサイトから
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
+    {% include nav.html %}
     <div class="container" role="main">
       {{ content }}
       {% if page.dir != "/" %}
