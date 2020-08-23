@@ -1,5 +1,7 @@
 ### 2020年
-* スマートエスイーセミナーシリーズ「ポスト・コロナ時代のソフトウェアエンジニアリングを考える」[第3回 モダン・ソフトウェアエンジニアリングのエッセンス](https://smartse.connpass.com/event/178626/)（2020-07-21） / [当日の動画](https://www.youtube.com/watch?v=sBjKEYMNzJk)
+* スマートエスイーセミナーシリーズ「ポスト・コロナ時代のソフトウェアエンジニアリングを考える」[第3回 モダン・ソフトウェアエンジニアリングのエッセンス](https://smartse.connpass.com/event/178626/)（2020-07-21）
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sBjKEYMNzJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 2019年
 * 北海道ソフトウェア技術開発機構「はじめてのアジャイルプロジェクトマネジメント」（2019-06-06/07）
