@@ -191,6 +191,12 @@ title: kdmsnr.com
 - [翔泳社 デブサミ2014 アワード ベストバリュー賞](https://event.shoeisha.jp/devsumi/20140213/award)（2014/02）
 - 2014年「ITエンジニアに読んでほしい！技術書・ビジネス書 大賞」技術書部門大賞『リーダブルコード』（2014/02）
 
+## 学会など
+
+* PDMA (Product Development and Management Association)
+* ACM (Association for Computing Machinery)
+* Agile Alliance
+
 ## 講演（一般向け）
 
 {% include prev-training.md %}
