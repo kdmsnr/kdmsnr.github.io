@@ -1,4 +1,5 @@
 ### 2020年
+* [An interview with Uncle Bob on "Clean Agile" - Celebration to the Japa – アジャイル動画](https://agile-douga.tv/products/an-interview-with-uncle-bob-on-clean-agile)（2020-10-10）
 * スマートエスイーセミナーシリーズ「ポスト・コロナ時代のソフトウェアエンジニアリングを考える」[第3回 モダン・ソフトウェアエンジニアリングのエッセンス](https://smartse.connpass.com/event/178626/)（2020-07-21）
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sBjKEYMNzJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
