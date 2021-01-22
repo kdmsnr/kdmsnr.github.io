@@ -314,3 +314,7 @@ title: kdmsnr.com
 ### 2010
 - [平成仮面ライダー勉強会](https://sites.google.com/site/kamenriderbenkyoukai/)（2010-02-22）
   - ゲスト：宇野常寛
+
+## 連絡先
+
+* 会社の<a href="https://www.waicrew.com/form/">問い合わせフォーム</a>からお願いします。
